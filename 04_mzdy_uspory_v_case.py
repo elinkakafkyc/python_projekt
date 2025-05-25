@@ -1,9 +1,9 @@
-# Oprava: Vstupní mzdy jsou hrubé
+
 # Cecilka: 45 000 Kč hrubého -> čistá mzda přibližně 34 980 Kč
 # Evžen:   52 000 Kč hrubého -> čistá mzda přibližně 41 020 Kč
-# Celkem:  cca 76 000 Kč čistého (souhlasí)
+# Celkem:  cca 76 000 Kč čistého 
 
-# Výpočet zůstatku: 29 890 Kč celkem -> rozdělíme podle poměru čistých mezd
+# zustatek 29 890 Kč celkem -> rozdělíme podle poměru čistých mezd
 import pandas as pd
 # ciste mzdy
 mzda_start_cecilka = 34980
@@ -24,7 +24,7 @@ podil_e = uspora_evzen_start / mzda_start_evzen
 rust_c = 2003
 rust_e = 2624
 
-# Znovu výpočet
+
 mzdy_c = []
 uspory_c = []
 mzdy_e = []
@@ -34,7 +34,7 @@ celkem_e = 0
 
 mzda_c = mzda_start_cecilka
 mzda_e = mzda_start_evzen
-roky = list(range(2024, 2031))  # roky 2024 až 2030 včetně
+roky = list(range(2024, 2031))  
 
 for rok in roky:
     rocni_uspora_c = mzda_c * podil_c * 12
@@ -51,7 +51,7 @@ for rok in roky:
     mzda_c += rust_c
     mzda_e += rust_e
 
-# Vytvoření výsledného DataFrame
+
 prehled_mezd_uspor = pd.DataFrame({
     "Rok": roky,
     "Mzda Cecilka (Kč/měsíc)": mzdy_c,
