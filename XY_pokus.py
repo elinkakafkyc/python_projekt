@@ -250,7 +250,7 @@ st.markdown(
 - **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
 ale její měsíční splátka.**  
   
-🟣 * V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+🟣  *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
 
 
 """
