@@ -92,9 +92,6 @@ st.info("💡 Tip: Zkouška sirén.")
 
 st.divider()  # rozdelovaci cara
 
-    # OBRÁZEK 2 - Hackathon 
-# image = Image.open("hackathon.png")
-# st.image(image, width = 300)
 
 # Sekce 3 - datova priprava, hackathon
 
@@ -127,7 +124,7 @@ st.header("4. První analýzy a vizualizace")
 st.markdown("""
 Na základě očištěných dat jsme odpověděly na první otázku:   
 👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*  
-<br>       
+       
 📍 Výsledky jsme zobrazily **v mapě městských částí.**
 """)
 
@@ -150,7 +147,7 @@ Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praz
 - Dále připravila data o inflaci. Data byla čerpána z Českého statistického úřadu – konkrétně se jednalo o průměrnou roční míru inflace ve stejném časovém rozmezí.
 - Všechna tato data následně spojila s hlavním datasetem realit
 - Na závěr vytvořila graf vývoje cen a mezd v Praze v letech 2016-2024
-<br>
+  
 Díky tomu jsme mohly odpovědět **na druhou otázku:**  
   
 👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?***  
@@ -159,7 +156,63 @@ a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
         """
     )
 
+# VIZUALIZACE CENY BYTŮ ZA POSLEDNÍ ROKY
+st.image("mzdy_ceny.png", caption='Růst průměrné cena za m2 vs. růst mediánové mzdy', use_container_width=True)
 
+
+st.divider()  # rozdelovaci cara
+
+# sekce 6 - samostatna prace - Eliska kafkova
+st.header("6. Samostatná práce – Eliška Kafková")
+st.write("*Eliška se zaměřila na **predikce mezd, spoření a měsíční výdaje párečku.***")
+st.markdown(
+"""
+- Vzhledem k předchozímu vývoji mezd byla zvolena lineární regrese 
+(ano, víme že hodnot by bylo potřeba více pro lepší přesnost, ale člověk si zkrátka musí umět poradit)  
+    - Predikce mzdy Evžena i Cecilky do roku 2030  
+    - Odhad měsíčních výdajů poměrově rostoucích společně se mzdou  
+    - Výpočet naspořených peněz  
+    - Totéž pro druhou variantu s mateřskou dovolenou  
+- Zároveň předpřipravila šablonu pro tuhle streamlit appku  
+ 
+    
+*Podrobný postup spolu s Python kódy jsou dostupné na Githubu:* 
+        """
+    )
+
+# odkaz na GITHUB Eliška
+st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
+
+
+# sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
+st.header("7. Závěrečná analýza a vizualizace na druhém Hackatonu")
+st.subheader("Predikce cen bytů v roce 2030")
+st.markdown(
+"""
+Z dostupných dat jsme spočítaly průměrnou velikost bytu o dispozici 2+kk a 2+1, která se nejvíce blížila potřebám páru. 
+Výsledek byl **58 m²** – tuto hodnotu jsme následně použily pro další výpočty.  
+  
+S využitím Tableau jsme vytvořily prediktivní model vývoje cen za m² v jednotlivých částech Prahy. 
+Pro každou městskou část jsme predikované ceny vynásobily hodnotou 58 m², čímž jsme získaly odhadovanou **cenovku bytu v roce 2030.** 
+        """
+    )
+
+# VIZUALIZACE nejdražších částí prahy top 5 a predikce do 2030
+st.image("ceny_bytu_24_30.png", caption='5 nejdražších částí Prahy v roce 2024 a jejich predikce pro rok 2030', use_container_width=True)
+
+st.markdown(
+    """
+Výsledky jsme zobrazily v mapě, kde byly zvýrazněny čtvrti, ve kterých by měl pár reálnou šanci na koupi bytu podle dvou scénářů:
+bez mateřské a s mateřskou dovolenou.  
+   
+👉 **Dosáhne modelový pár na hypotéku v roce 2030? 
+Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?**
+
+""")
+
+# vložit kody
+
+# odkaz na github kod appky
 
 
 
