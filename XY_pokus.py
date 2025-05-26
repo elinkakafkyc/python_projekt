@@ -125,10 +125,11 @@ st.divider()  # rozdelovaci cara
 # sekce 4 - prvni analyzy a vizualizace
 st.header("4. První analýzy a vizualizace")
 st.markdown("""
-         Na základě očištěných dat jsme odpověděly na první otázku:   
-    👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*  
-    📍 Výsledky jsme zobrazily **v mapě městských částí.**
-         """)
+Na základě očištěných dat jsme odpověděly na první otázku:   
+👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*  
+<br>       
+📍 Výsledky jsme zobrazily **v mapě městských částí.**
+""")
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
 st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
@@ -150,9 +151,9 @@ Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praz
 - Všechna tato data následně spojila s hlavním datasetem realit
 - Na závěr vytvořila graf vývoje cen a mezd v Praze v letech 2016-2024
 <br>
-Díky tomu jsme mohly odpovědět na druhou otázku:  
+Díky tomu jsme mohly odpovědět **na druhou otázku:**  
   
-👉 *Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*  
+👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?***  
 a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
 
         """
