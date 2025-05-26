@@ -54,6 +54,8 @@ st.write("")
 image = Image.open("parecek.png")
 st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
 
+st.write("")
+
 # MODELOVÝ BYTEČEK
 st.subheader("Modelový byteček:")
 st.markdown(
@@ -67,16 +69,16 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 2
 st.header("2. Analytické otázky")
-st.write("Na začátku jsme si položily následující klíčové otázky:")
+st.write("Na začátku jsme si položily následující klíčové otázky, které bude cílem zodpovědět:")
 st.markdown(
         """
-        1. **Jaké jsou průměrné ceny modelového bytu v různých částech Prahy?**  
+        **A. Jaké jsou průměrné ceny modelového bytu v různých částech Prahy?**  
        
 
-        2. **Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?**  
+        **B. Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?**  
        
 
-        3. **Dosáhne modelový pár na hypotéku v roce 2030? 
+        **C. Dosáhne modelový pár na hypotéku v roce 2030? 
         Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?**  
     
         """
@@ -90,11 +92,27 @@ st.divider()  # rozdelovaci cara
 # OBRÁZEK 2 - Hackathon 
 
 st.write("")
-image = Image.open("parecek.png")
-st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
+image = Image.open("hackathon.png")
+st.image(image, width = 300)
 
-# Sekce 3
+# Sekce 3 
 
-st.header("3. Datová příprava a čištění na prvním Hackathonu")
+st.header("3. Datová příprava a čištění na prvním Hackathonu"), st.image(image, width = 300)
 st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
+st.markdown(
+        """
+        1. Vybraly jsme relevantní sloupce
+        2. Data omezily jen na Prahu
+        3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)
+        4. Vyfiltrovaly jsme pouze byty 2+kk a 2+1 na prodej a odstranily zbývající irelevantní informace
+        5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál
+        6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky
+
+*Podrobný postup spolu s SQL kódy jsou dostupné v repozitáři na Githubu:* 
+
+        """
+    )
+
+# odkaz na GITHUB
+st.markdown("[Přesně tady!](https://github.com/MichaelaKad/sql_projekt.git)")
 
