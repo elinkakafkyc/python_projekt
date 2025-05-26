@@ -96,16 +96,9 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 3 - datova priprava, hackathon
 
-col1, col2 = st.columns([9, 1]) # 1 a 8 je pomer rozdeleni sirky tech sloupcu
-
-with col1:
-    st.header("3. Datová příprava a čištění aka první")
-
-with col2:
-    st.image("hackathon.png", width=300)
-
 
 st.header("3. Datová příprava a čištění aka první")
+st.image("hackathon.png", width=300)
 st.write("*Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, " \
 "kde jsme provedly první transformace:*")
 st.markdown(
