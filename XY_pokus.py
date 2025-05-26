@@ -8,7 +8,7 @@ from PIL import Image
 # mala mezera st.write("")
 # oddelovace st.divider()
 # nebo st.markdown("---")
-
+# barevne boxy - st.success(), st.warning(), st.error(), st.info()
 
 
 
@@ -28,7 +28,7 @@ st.write(
     """
 )
 
-st.divider()
+st.divider() # rozdelovaci cara
 
 # Sekce 1
 st.header("1. Stanovení modelového scénáře")
@@ -49,6 +49,45 @@ st.markdown(
 )
 
 # OBRÁZEK 1 - MODELOVÝ PÁREČEK
+
+st.write("")
+image = Image.open("parecek.png")
+st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
+
+# MODELOVÝ BYTEČEK
+st.subheader("Modelový byteček:")
+st.markdown(
+    """
+    Cílem Cecilky a Evžena je do roku 2030 našetřit a koupit vlastní byt **2+kk nebo 2+1**, ideálně v širším centru nebo klidné části Prahy. Dispozice 2+kk je nejoblíbenější a nejčetnější v inzerátech prodejů nemovitostí, a 2+1 je její nejbližší alternativou. 
+    Tuto dispozici si vybírají i proto, že zatím nemají děti a velikost bytu jim pro každodenní život plně vyhovuje.
+    """
+)
+
+st.divider()  # rozdelovaci cara
+
+# Sekce 2
+st.header("2. Analytické otázky")
+st.write("Na začátku jsme si položily následující klíčové otázky:")
+st.markdown(
+        """
+        1. **Jaké jsou průměrné ceny modelového bytu v různých částech Prahy?**  
+       
+
+        2. **Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?**  
+       
+
+        3. **Dosáhne modelový pár na hypotéku v roce 2030? 
+        Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?**  
+    
+        """
+    )
+
+    # Prostor pro další interaktivní prvky:
+st.info("💡 Tip: Zkouška sirén.")
+
+st.divider()  # rozdelovaci cara
+
+# OBRÁZEK 2 - Hackathon
 
 st.write("")
 image = Image.open("parecek.png")
