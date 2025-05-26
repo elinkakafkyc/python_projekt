@@ -96,7 +96,7 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 3 - datova priprava, hackathon
 
-col1, col2 = st.columns([8, 2]) # 1 a 8 je pomer rozdeleni sirky tech sloupcu
+col1, col2 = st.columns([9, 1]) # 1 a 8 je pomer rozdeleni sirky tech sloupcu
 
 with col1:
     st.header("3. Datová příprava a čištění aka první")
