@@ -122,8 +122,9 @@ st.divider()  # rozdelovaci cara
 # sekce 4 - prvni analýzy a vizualizace
 st.header("4. První analýzy a vizualizace")
 st.markdown("""
-Na základě očištěných dat jsme odpověděly na první otázku:   
-👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*  
+Na základě očištěných dat jsme odpověděly na první otázku:  
+               
+👉 ***Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?***  
        
 📍 Výsledky jsme zobrazily **v mapě městských částí.**
 """)
@@ -150,14 +151,16 @@ Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praz
   
 Díky tomu jsme mohly odpovědět **na druhou otázku:**  
   
-👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?***  
+👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*** 
+   
 a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
 
         """
     )
 
 # VIZUALIZACE CENY BYTŮ ZA POSLEDNÍ ROKY
-st.image("mzdy_ceny.png", caption='Růst průměrné cena za m2 vs. růst mediánové mzdy', use_container_width=True)
+st.write()
+st.image("mzdy_ceny.png", caption='Růst průměrné ceny za m2 vs. růst mediánové mzdy', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -184,6 +187,8 @@ st.markdown(
 st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 
 
+st.divider()  # rozdelovaci cara
+
 # sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
 st.header("7. Závěrečná analýza a vizualizace na druhém Hackatonu")
 st.subheader("Predikce cen bytů v roce 2030")
@@ -197,16 +202,18 @@ Pro každou městskou část jsme predikované ceny vynásobily hodnotou 58 m²,
         """
     )
 
+st.write()
+
 # VIZUALIZACE nejdražších částí prahy top 5 a predikce do 2030
 st.image("ceny_bytu_24_30.png", caption='5 nejdražších částí Prahy v roce 2024 a jejich predikce pro rok 2030', use_container_width=True)
 
 st.markdown(
     """
 Výsledky jsme zobrazily v mapě, kde byly zvýrazněny čtvrti, ve kterých by měl pár reálnou šanci na koupi bytu podle dvou scénářů:
-bez mateřské a s mateřskou dovolenou.  
+bez mateřské a s mateřskou dovolenou.  Věnujeme se tím našim závěrečným otázkám:
    
-👉 **Dosáhne modelový pár na hypotéku v roce 2030? 
-Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?**
+👉 ***Dosáhne modelový pár na hypotéku v roce 2030? 
+Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?***
 
 """)
 
