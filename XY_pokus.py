@@ -87,10 +87,14 @@ st.info("💡 Tip: Zkouška sirén.")
 
 st.divider()  # rozdelovaci cara
 
-# OBRÁZEK 2 - Hackathon
+# OBRÁZEK 2 - Hackathon 
 
 st.write("")
 image = Image.open("parecek.png")
 st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
 
+# Sekce 3
+
+st.header("3. Datová příprava a čištění na prvním Hackathonu")
+st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
 
