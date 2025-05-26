@@ -103,12 +103,12 @@ st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály d
 st.markdown(
         """
   
-        1. Vybraly jsme relevantní sloupce  
-        2. Data omezily jen na **Prahu**  
-        3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)  
-        4. Vyfiltrovaly jsme pouze byty **2+kk a 2+1** na prodej a odstranily zbývající irelevantní informace  
-        5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál  
-        6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky  
+1. Vybraly jsme relevantní sloupce  
+2. Data omezily jen na **Prahu**  
+3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)  
+4. Vyfiltrovaly jsme pouze byty **2+kk a 2+1** na prodej a odstranily zbývající irelevantní informace  
+5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál  
+6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky  
 
 *Podrobný postup spolu s SQL kódy jsou dostupné na Githubu:* 
         """
