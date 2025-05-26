@@ -1,9 +1,10 @@
 import streamlit as st
+from PIL import Image
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
 
-import streamlit as st
+
 
 # NADPIS
 st.title("Metr za milion: Mileniálské dilema")
@@ -39,6 +40,7 @@ st.markdown(
 
 # OBRÁZEK 1 - MODELOVÝ PÁREČEK
 
-
+image = Image.open("parecek.png")
+st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_column_width=True)
 
 
