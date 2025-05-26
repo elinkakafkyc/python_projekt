@@ -136,7 +136,7 @@ st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok
 
 st.divider()  # rozdelovaci cara
 
-# sekce 5 - samostatna prace Misa
+# sekce 5 - samostatna prace Misa Kaderova
 st.header("5. Samostatná práce - Michaela Kaderová")
 st.write("*Míša se zaměřila na vývoj **cen nemovitostí a průměrných mezd v čase:***")
 st.markdown(
