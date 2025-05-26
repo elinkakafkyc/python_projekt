@@ -102,10 +102,11 @@ st.header("3. Datová příprava a čištění na prvním Hackathonu")
 st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
 st.markdown(
         """
+  
         1. Vybraly jsme relevantní sloupce  
-        2. Data omezily jen na Prahu  
+        2. Data omezily jen na **Prahu**  
         3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)  
-        4. Vyfiltrovaly jsme pouze byty 2+kk a 2+1 na prodej a odstranily zbývající irelevantní informace  
+        4. Vyfiltrovaly jsme pouze byty **2+kk a 2+1** na prodej a odstranily zbývající irelevantní informace  
         5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál  
         6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky  
 
