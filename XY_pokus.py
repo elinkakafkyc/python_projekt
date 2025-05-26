@@ -41,7 +41,7 @@ st.write("Prvním krokem bylo nadefinování modelové situace, která by odpov�
 st.subheader("Modelový páreček:")
 st.markdown(
     """
-    - 👩 **Cecilka (29)** – učitelka na soukromé základní škole, bere mediánový hrubý měsíční příjem **45 120 Kč**
+    - 👩 **Cecilka (29)** – učitelka na soukromé základní škole, má mediánový hrubý měsíční příjem **45 120 Kč**
     - 👨 **Evžen (30)** – elektrikář ve větší firmě, má mediánový hrubý měsíční příjem **52 397 Kč**
     - 💸 **Celkové čisté příjmy**: cca **76 000 Kč / měsíc**
     - 🏠 **Žijí spolu v nájemním bytě 2+kk**, za který platí **22 000 Kč** vč. poplatků (průměrný nájem v této kategorii dispozic bytů)
@@ -190,7 +190,7 @@ st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt
 st.divider()  # rozdelovaci cara
 
 # sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
-st.header("7. Závěrečná analýza a vizualizace na druhém Hackatonu")
+st.header("7. Závěrečná analýza a vizualizace na druhém Hackathonu")
 st.subheader("Predikce cen bytů v roce 2030")
 st.markdown(
 """
@@ -216,6 +216,53 @@ bez mateřské a s mateřskou dovolenou.  Věnujeme se tím našim závěrečný
 Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?***
 
 """)
+
+
+# scenar 1!
+st.subheader(
+    """
+***Scénář 1: Bez mateřské dovolené pouze s fenkou Bárou***
+""")
+st.markdown(
+    """
+**Odhadované příjmy v roce 2030:**  
+  
+- Cecilka: 46 998 Kč (čistého)  
+- Evžen: 56 764 Kč (čistého)  
+ **→ Celkem: 103 762 Kč měsíčně**  
+   
+**Měsíční potenciál pro hypotéku:**  
+  
+- Po odečtení výdajů a bez nájmu (který již nebudou tou dobou platit):  
+ → Mají navíc **62 809 Kč měsíčně**
+ → Bezpečná výše měsíční splátky: **~40 000 Kč měsíčně**  
+   
+**Naspořené prostředky (dle výpočtů Elišky v Pythonu):**  
+  
+- Celkově: **2 969 338 Kč**  
+- Reálně lze použít na hypotéku: **2 500 000 Kč** (zbytek jako rezerva)  
+  
+**Možnosti páru:**  
+  
+- Hypotéka na **30 let** (u AirBank, protože i banku můžete mít rádi)  
+- Půjčka **7,5 mil. Kč**  
+- Celková cena nemovitosti: **10 mil. Kč**  
+- **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
+ale její měsíční splátka.**  
+  
+🟣 *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+
+
+"""
+)
+
+st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk', use_container_width=True)
+
+
+
+
+
+
 
 # vložit kody
 
