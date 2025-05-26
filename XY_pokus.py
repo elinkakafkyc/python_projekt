@@ -119,7 +119,7 @@ st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git
 st.divider()  # rozdelovaci cara
 
 
-# sekce 4 - prvni analyzy a vizualizace
+# sekce 4 - prvni analýzy a vizualizace
 st.header("4. První analýzy a vizualizace")
 st.markdown("""
 Na základě očištěných dat jsme odpověděly na první otázku:   
