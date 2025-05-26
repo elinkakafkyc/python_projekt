@@ -102,7 +102,7 @@ with col1:
     st.header("3. Datová příprava a čištění aka první")
 
 with col2:
-    st.image("hackathon.png", width=40)
+    st.image("hackathon.png", width=300)
 
 
 st.header("3. Datová příprava a čištění aka první")
