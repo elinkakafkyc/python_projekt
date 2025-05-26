@@ -234,7 +234,7 @@ st.markdown(
 **Měsíční potenciál pro hypotéku:**  
   
 - Po odečtení výdajů a bez nájmu (který již nebudou tou dobou platit):  
- → Mají navíc **62 809 Kč měsíčně**
+ → Mají navíc **62 809 Kč měsíčně**  
  → Bezpečná výše měsíční splátky: **~40 000 Kč měsíčně**  
    
 **Naspořené prostředky (dle výpočtů Elišky v Pythonu):**  
@@ -250,13 +250,13 @@ st.markdown(
 - **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
 ale její měsíční splátka.**  
   
-🟣 *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+🟣 * V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
 
 
 """
 )
 
-st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk', use_container_width=True)
+st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
 
 
