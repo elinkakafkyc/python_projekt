@@ -3,6 +3,14 @@ from PIL import Image
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
+# pevna mezera st.markdown("<br>", unsafe_allow_html=True)
+# vickrat za sebou st.markdown("<br><br>", unsafe_allow_html=True)
+# mala mezera st.write("")
+# oddelovace st.divider()
+# nebo st.markdown("---")
+
+
+
 
 
 
@@ -19,6 +27,8 @@ st.write(
     Naším cílem bylo nejen zjistit, jaká je současná situace, ale také ji zasadit do reálného příběhu – proto jsme vytvořily fiktivní pár Cecilku a Evžena a jejich sen o vlastním bytě v hlavním městě.
     """
 )
+
+st.divider()
 
 # Sekce 1
 st.header("1. Stanovení modelového scénáře")
@@ -40,6 +50,7 @@ st.markdown(
 
 # OBRÁZEK 1 - MODELOVÝ PÁREČEK
 
+st.write("")
 image = Image.open("parecek.png")
 st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
 
