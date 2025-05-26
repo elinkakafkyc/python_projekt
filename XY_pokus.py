@@ -29,6 +29,8 @@ st.write(
     """
 )
 
+st.image("uvod.png", use_container_width=True)
+
 st.divider() # rozdelovaci cara
 
 # Sekce 1 - modelový páreček a byteček
@@ -70,7 +72,7 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 2 - analytické otázky
 st.header("2. Analytické otázky")
-st.write("Na začátku jsme si položily následující klíčové otázky, které bude cílem zodpovědět:")
+st.write("*Na začátku jsme si položily následující klíčové otázky, které bude cílem zodpovědět:*")
 st.markdown(
         """
         **A. Jaké jsou průměrné ceny modelového bytu v různých částech Prahy?**  
@@ -117,4 +119,22 @@ st.markdown(
 
 # odkaz na GITHUB míša
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
+
+st.divider()  # rozdelovaci cara
+
+
+# sekce 4 - prvni analyzy a vizualizace
+st.header("4. První analýzy a vizualizace")
+st.markdown("""
+         Na základě očištěných dat jsme odpověděly na první otázku: 
+    👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*
+    📍 Výsledky jsme zobrazily **v mapě městských částí.**
+         """)
+
+# VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
+#st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
+
+
+
+
 
