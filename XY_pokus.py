@@ -113,6 +113,6 @@ st.markdown(
         """
     )
 
-# odkaz na GITHUB
+# odkaz na GITHUB míša
 st.markdown("[Přesně tady!](https://github.com/MichaelaKad/sql_projekt.git)")
 
