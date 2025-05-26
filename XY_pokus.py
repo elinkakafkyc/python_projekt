@@ -41,6 +41,6 @@ st.markdown(
 # OBRÁZEK 1 - MODELOVÝ PÁREČEK
 
 image = Image.open("parecek.png")
-st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_column_width=True)
+st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
 
 
