@@ -37,7 +37,7 @@ st.divider() # rozdelovaci cara
 st.header("1. Stanovení modelového scénáře")
 st.write("Prvním krokem bylo nadefinování modelové situace, která by odpovídala realitě většiny mladých párů v Praze:")
 
-# MODELOVÝ PÁREČEK
+    # MODELOVÝ PÁREČEK
 st.subheader("Modelový páreček:")
 st.markdown(
     """
@@ -51,7 +51,7 @@ st.markdown(
     """
 )
 
-# OBRÁZEK 1 - MODELOVÝ PÁREČEK
+    # OBRÁZEK 1 - MODELOVÝ PÁREČEK
 
 st.write("")
 image = Image.open("parecek.png")
@@ -59,7 +59,7 @@ st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou'
 
 st.write("")
 
-# MODELOVÝ BYTEČEK
+    # MODELOVÝ BYTEČEK
 st.subheader("Modelový byteček:")
 st.markdown(
     """
@@ -92,12 +92,11 @@ st.info("💡 Tip: Zkouška sirén.")
 
 st.divider()  # rozdelovaci cara
 
-# OBRÁZEK 2 - Hackathon 
+    # OBRÁZEK 2 - Hackathon 
 # image = Image.open("hackathon.png")
 # st.image(image, width = 300)
 
 # Sekce 3 - datova priprava, hackathon
-
 
 st.header("3. Datová příprava a čištění aka první")
 st.image("hackathon.png", width=300)
@@ -126,13 +125,39 @@ st.divider()  # rozdelovaci cara
 # sekce 4 - prvni analyzy a vizualizace
 st.header("4. První analýzy a vizualizace")
 st.markdown("""
-         Na základě očištěných dat jsme odpověděly na první otázku: 
-    👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*
+         Na základě očištěných dat jsme odpověděly na první otázku:   
+    👉 *Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?*  
     📍 Výsledky jsme zobrazily **v mapě městských částí.**
          """)
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
-#st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
+st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
+
+
+st.divider()  # rozdelovaci cara
+
+# sekce 5 - samostatna prace Misa
+st.header("5. Samostatná práce - Michaela Kaderová")
+st.write("*Míša se zaměřila na vývoj **cen nemovitostí a průměrných mezd v čase:***")
+st.markdown(
+        """
+    - Nejprve získala data o mzdách z ISPV. 
+      Zaměřila se pouze na data pro hlavní město Prahu a vybrala věkové kategorie 20-29 a 30-39 let. 
+      Dále rozdělila data podle pohlaví a omezila je na období let 2016-2024.
+        Z těchto údajů následně vypočítala jak mediánové, tak průměrné mzdy pro obě věkové skupiny dohromady. 
+      Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praze za posledních několik let.
+    - Dále připravila data o inflaci. Data byla čerpána z Českého statistického úřadu – konkrétně se jednalo o průměrnou roční míru inflace ve stejném časovém rozmezí.
+    - Všechna tato data následně spojila s hlavním datasetem realit
+    - Na závěr vytvořila graf vývoje cen a mezd v Praze v letech 2016-2024
+
+Díky tomu jsme mohly odpovědět na druhou otázku:  
+👉 *Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*  
+a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
+
+        """
+    )
+
+
 
 
 
