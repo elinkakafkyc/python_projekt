@@ -30,7 +30,7 @@ st.write(
 
 st.divider() # rozdelovaci cara
 
-# Sekce 1
+# Sekce 1 - modelový páreček a byteček
 st.header("1. Stanovení modelového scénáře")
 st.write("Prvním krokem bylo nadefinování modelové situace, která by odpovídala realitě většiny mladých párů v Praze:")
 
@@ -67,7 +67,7 @@ st.markdown(
 
 st.divider()  # rozdelovaci cara
 
-# Sekce 2
+# Sekce 2 - analytické otázky
 st.header("2. Analytické otázky")
 st.write("Na začátku jsme si položily následující klíčové otázky, které bude cílem zodpovědět:")
 st.markdown(
@@ -97,19 +97,23 @@ st.image(image, width = 300)
 
 # Sekce 3 
 
-st.header("3. Datová příprava a čištění na prvním Hackathonu"), st.image(image, width = 300)
+st.header("3. Datová příprava a čištění na prvním Hackathonu")
 st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
 st.markdown(
         """
         1. Vybraly jsme relevantní sloupce
+
         2. Data omezily jen na Prahu
+
         3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)
+
         4. Vyfiltrovaly jsme pouze byty 2+kk a 2+1 na prodej a odstranily zbývající irelevantní informace
+
         5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál
+
         6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky
 
-*Podrobný postup spolu s SQL kódy jsou dostupné v repozitáři na Githubu:* 
-
+*Podrobný postup spolu s SQL kódy jsou dostupné na Githubu:* 
         """
     )
 
