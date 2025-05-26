@@ -99,7 +99,8 @@ st.image(image, width = 300)
 # Sekce 3 
 
 st.header("3. Datová příprava a čištění na prvním Hackathonu")
-st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
+st.write("*Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, " \
+"kde jsme provedly první transformace:*")
 st.markdown(
         """
   
