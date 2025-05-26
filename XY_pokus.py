@@ -3,6 +3,7 @@ from PIL import Image
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
+# dve mezery na konci textu jsou novej radek!!!
 # pevna mezera st.markdown("<br>", unsafe_allow_html=True)
 # vickrat za sebou st.markdown("<br><br>", unsafe_allow_html=True)
 # mala mezera st.write("")
@@ -101,21 +102,16 @@ st.header("3. Datová příprava a čištění na prvním Hackathonu")
 st.write("Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, kde jsme provedly první transformace:")
 st.markdown(
         """
-        1. Vybraly jsme relevantní sloupce
-
-        2. Data omezily jen na Prahu
-
-        3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)
-
-        4. Vyfiltrovaly jsme pouze byty 2+kk a 2+1 na prodej a odstranily zbývající irelevantní informace
-
-        5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál
-
-        6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky
+        1. Vybraly jsme relevantní sloupce  
+        2. Data omezily jen na Prahu  
+        3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)  
+        4. Vyfiltrovaly jsme pouze byty 2+kk a 2+1 na prodej a odstranily zbývající irelevantní informace  
+        5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál  
+        6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky  
 
 *Podrobný postup spolu s SQL kódy jsou dostupné na Githubu:* 
         """
-    )
+    ) 
 
 # odkaz na GITHUB míša
 st.markdown("[Přesně tady!](https://github.com/MichaelaKad/sql_projekt.git)")
