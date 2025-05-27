@@ -42,7 +42,7 @@ st.markdown("""
 #ECD444
 
 
-# pokus o sidebar
+# pokus o sidebar a kapitoly
 st.sidebar.markdown("## 📚 Kapitoly")
 st.sidebar.markdown("""
 
