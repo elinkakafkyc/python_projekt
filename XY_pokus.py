@@ -4,13 +4,13 @@ from PIL import Image
 import json
 
 
-
+# nastaveni barvy
 base = "light"
-primaryColor = "#c89fca"
+primaryColor = "#f4a2c3"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #c89fca;
+        background-color: #f4a2c3;
     }
     </style>
 """, unsafe_allow_html=True)
