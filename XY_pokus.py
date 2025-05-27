@@ -396,6 +396,7 @@ st.markdown(
 **Příjmy (po návratu z mateřské):**  
   
 - Cecilka: 46 998 Kč (čistého)  
+- Uvažovaly jsme 70% mateřskou a poté vyčerpání rodičovského příspěvku, délka mateřské dovolené klasicky v délce 3 let
 - Evžen: 56 764 Kč (čistého)  
  **→ Celkem: 103 762 Kč měsíčně** 
   → Stejné úspory a kapacita pro splácení jako v předchozím scénáři **(~40 000 Kč měsíčně)**  
@@ -415,7 +416,7 @@ ale její měsíční splátka.**
 - **V této situaci by jim však postupem času byt 2+kk nestačil,
  a navíc by jim rostly měsíční výdaje které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
   
-🟣  *V mapě jsme zobrazily městské části, kde lze za těchto podmínek v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+🟣  *Opět jsme zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt.*
 
 
 """
@@ -424,12 +425,32 @@ ale její měsíční splátka.**
 st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk po mateřské.', use_container_width=True)
 
 
+st.divider()  # rozdelovnik
+
+st.header("🌎 Shrnutí a přínos")
+st.markdown("""
+Obě simulace ukázaly, že pokud bude pár schopen spořit, 
+vyhnout se dlouhodobé pracovní neschopnosti a udrží si stabilní příjem, **je pořízení bytu v určitých čtvrtích Prahy reálné.**  
+  
+*Zásadní roli hraje:*
+- **výše naspořených prostředků,**  
+- **schopnost dlouhodobě spořit a udržet výdajový režim na uzdě,**
+- **úroková sazba a ochota banky úvěr poskytnout.**  
+              
+Za zvážení by samozřejmě stály i další scénáře – například zůstat v nájmu při potřebě většího bytu, nebo nákup menšího bytu jako investičního. 
+Tyto varianty však vzhledem k časovým možnostem přenecháváme budoucím generacím datařek.  
+              
+Z hlediska analytické práce jsme v této fázi spojily veškeré připravené datové podklady, 
+využily jsme prediktivní i vizualizační nástroje a převedly jsme čísla do praktického scénáře reálného života.
+To považujeme za hlavní přínos našeho projektu.
+
+
+""")
+
+st.image("images/materska.png", use_container_width=True)
 
 
 
-# vložit kody
-
-# odkaz na github kod appky
 
 
 
