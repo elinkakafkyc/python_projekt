@@ -6,11 +6,11 @@ import json
 
 # nastaveni barvy
 base = "light"
-primaryColor = "#f4a2c3"
+primaryColor = "#f5c4d8"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #f4a2c3;
+        background-color: #f5c4d8;
     }
     </style>
 """, unsafe_allow_html=True)
