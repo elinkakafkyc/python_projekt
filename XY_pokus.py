@@ -12,6 +12,22 @@ from PIL import Image
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 
 
+st.sidebar.markdown("## 📚 Kapitoly")
+
+st.sidebar.markdown("""
+- [Úvod](https://metr-za-milion.streamlit.app/#uvod)  
+- [1. Stanovení modelového scénáře](https://metr-za-milion.streamlit.app/#1-stanoveni-modeloveho-scenare)  
+    - [Modelový páreček](https://metr-za-milion.streamlit.app/#modelovy-parecek)  
+    - [Modelový byteček](https://metr-za-milion.streamlit.app/#modelovy-bytecek)  
+- [2. Analytické otázky](https://metr-za-milion.streamlit.app/#2-analyticke-otazky)  
+- [3. Datová příprava a čištění aka první](https://metr-za-milion.streamlit.app/#3-datova-priprava-a-cisteni-aka-prvni)  
+- [4. První analýzy a vizualizace](https://metr-za-milion.streamlit.app/#4-prvni-analyzy-a-vizualizace)  
+- [5. Samostatná práce - Michaela Kaderová](https://metr-za-milion.streamlit.app/#5-samostatna-prace-michaela-kaderova)  
+- [6. Samostatná práce – Eliška Kafková](https://metr-za-milion.streamlit.app/#6-samostatna-prace-eliska-kafkova)                      
+- [7. Závěrečná analýza a vizualizace na druhém Hackathonu](https://metr-za-milion.streamlit.app/#6-samostatna-prace-eliska-kafkova)  
+    - [Predikce cen bytů v roce 2030](https://metr-za-milion.streamlit.app/#predikce-cen-bytu-v-roce-2030)  
+    - [Scénář 1: Bez mateřské dovolené pouze s fenkou Bárou](https://metr-za-milion.streamlit.app/#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
+""")
 
 
 
@@ -258,7 +274,7 @@ ale její měsíční splátka.**
 
 st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
-
+# scenar 2!
 
 
 
