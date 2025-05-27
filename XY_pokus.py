@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_ace import st_ace
 from PIL import Image
+import json
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
@@ -148,6 +149,13 @@ st.markdown(
 # odkaz na GITHUB míša
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
+# SQL kodik
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
+    code = file.read()
+st_ace(value=code, language="python", theme="github", readonly=True, height=300)    
+st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.ipynb`)")
+
+
 st.divider()  # rozdelovaci cara
 
 
@@ -216,30 +224,22 @@ st.markdown(
     )
 
 
-#vlozeni kodu z ipynb
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
-    code = file.read()
-st_ace(value=code, language="python", theme="monokai", readonly=True, height=400)    
-st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
-
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
-    code = file.read()
-st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=300)    
-st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
-
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
-    code = file.read()
-st_ace(value=code, language="python", theme="twilight", readonly=True, height=500)    
-st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
-
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
-    code = file.read()
-st_ace(value=code, language="python", theme="dracula", readonly=True, height=500)    
-st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
-
-
 # odkaz na GITHUB Eliška
 st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
+
+#vlozeni kodu z ipynb
+
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
+    nb = json.load(evzen)
+
+for i, cell in enumerate(nb["cells"]):
+    if cell["cell_type"] == "code":
+        code = "".join(cell["source"])
+        st.markdown(f"##### 🧠 Kódová buňka {i+1}")
+        st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=200)
+
+
+
 
 
 st.divider()  # rozdelovnik
