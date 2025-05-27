@@ -3,6 +3,13 @@ from streamlit_ace import st_ace
 from PIL import Image
 import json
 
+st.set_page_config(
+    page_title="Metr za milion",
+    page_icon="🏠",
+    layout="centered",  
+    initial_sidebar_state="expanded"
+)
+
 
 # nastaveni barvy sidebaru
 base = "light"
