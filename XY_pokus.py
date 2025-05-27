@@ -302,12 +302,15 @@ import statsmodels.formula.api as smf
 import statsmodels.tools as tools
 import matplotlib.pyplot as plt
 '''
-
-st_ace(value=code, language="python", theme="pastel_on_dark", readonly=False, height=200)
-
-
-
-
+st_ace(
+    value=code,
+    language="python",
+    theme="monokai",
+    readonly=True,  # deaktivuje editor
+    show_gutter=False,  # volitelně schová číslování řádků
+    key="read_only_ace",
+    height=300
+)
 
 
 st.divider()  # rozdelovnik
