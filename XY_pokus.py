@@ -276,11 +276,36 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=Fals
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
-# light verze kodu
-user_code = st.text_area("Kód", value="print('Hello Evžen')", height=300)
 
-if st.button("▶️ Spustit"):
-    exec(user_code)
+code = '''
+import pandas as pd
+import seaborn as sns
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import statsmodels.tools as tools
+import matplotlib.pyplot as plt
+'''
+
+st.markdown("""
+<style>
+.custom-code {
+    background-color: #2d2a55;
+    color: #f8f8f2;
+    font-family: monospace;
+    padding: 1em;
+    border-radius: 10px;
+    white-space: pre;
+    overflow-x: auto;
+}
+</style>
+<div class="custom-code">
+import pandas as pd
+print("Ahoj Evžen")
+</div>
+""", unsafe_allow_html=True)
+
 
 
 
