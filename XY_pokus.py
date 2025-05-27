@@ -280,7 +280,7 @@ import statsmodels.tools as tools
 import matplotlib.pyplot as plt
 '''
 
-st.code(code, language="python")
+st.code(code, language="sql")
 
 # varianta 2
 
@@ -295,7 +295,18 @@ import statsmodels.tools as tools
 import matplotlib.pyplot as plt
 '''
 
-st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=200)
+st_ace(value=code, language="python", theme="pastel_on_dark", readonly=False, height=200)
+
+#skryti tlacitek
+st.markdown("""
+    <style>
+    /* Skrytí tlačítka Apply */
+    .stButton button {
+        display: none;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 
 
