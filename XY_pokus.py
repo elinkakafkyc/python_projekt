@@ -152,7 +152,7 @@ st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git
 # SQL kodik
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
-st_ace(value=code, language="python", theme="github", readonly=True, height=300)    
+st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=300)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.ipynb`)")
 
 
@@ -244,15 +244,6 @@ full_code = "\n\n# \n\n".join(all_code)
 
 # Zobrazení jako jedna scrollovatelná, barevná buňka
 st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
-
-#skryti tlacitka apply pod kodem
-st.markdown("""
-    <style>
-    .stButton button {
-        display: none;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
 
 # Popisek kodu
