@@ -276,10 +276,13 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=Fals
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
+# light verze kodu
 user_code = st.text_area("Kód", value="print('Hello Evžen')", height=300)
 
 if st.button("▶️ Spustit"):
     exec(user_code)
+
+
 
 st.divider()  # rozdelovnik
 
