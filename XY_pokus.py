@@ -386,42 +386,42 @@ st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde
 
 st.subheader(
     """
-***Scénář 1: Bez mateřské dovolené pouze s fenkou Bárou***
+***Scénář 2: S mateřskou dovolenou***
 """)
 st.markdown(
     """
-**Odhadované příjmy v roce 2030:**  
+    Zohlednily jsme i variantu, kdy Cecilka v určitém období (2027) odejde na mateřskou a po návratu zpět do práce 
+    pobírá mzdu ekvivalentní jako ve stejném čase v předchozím scénáři.  
+    
+**Příjmy (po návratu z mateřské):**  
   
 - Cecilka: 46 998 Kč (čistého)  
 - Evžen: 56 764 Kč (čistého)  
- **→ Celkem: 103 762 Kč měsíčně**  
+ **→ Celkem: 103 762 Kč měsíčně** 
+  → Stejné úspory a kapacita pro splácení jako v předchozím scénáři **(~40 000 Kč měsíčně)**  
    
-**Měsíční potenciál pro hypotéku:**  
+**Naspořené prostředky:**  
   
-- Po odečtení výdajů a bez nájmu (který již nebudou tou dobou platit):  
- → Mají navíc **62 809 Kč měsíčně**  
- → Bezpečná výše měsíční splátky: **~40 000 Kč měsíčně**  
-   
-**Naspořené prostředky (dle výpočtů Elišky v Pythonu):**  
-  
-- Celkově: **2 969 338 Kč**  
-- Reálně lze použít na hypotéku: **2 500 000 Kč** (zbytek jako rezerva)  
+- Nižší úspory z důvodu výpadku/snížení příjmu: **1 931 026 Kč**
+- Reálně lze použít na hypotéku: **1 500 000 Kč** (zbytek jako rezerva)  
   
 **Možnosti páru:**  
   
 - Hypotéka na **30 let** (u AirBank, protože i banku můžete mít rádi)  
 - Půjčka **7,5 mil. Kč**  
-- Celková cena nemovitosti: **10 mil. Kč**  
-- **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
+- Celková cena nemovitosti: **9 mil. Kč**  
+- **Limitujíc opět nebyl potřebný základ pro žádost o hypotéku, 
 ale její měsíční splátka.**  
+- **V této situaci by jim však postupem času byt 2+kk nestačil,
+ a navíc by jim rostly měsíční výdaje které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
   
-🟣  *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+🟣  *V mapě jsme zobrazily městské části, kde lze za těchto podmínek v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
 
 
 """
 )
 
-st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
+st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk po mateřské.', use_container_width=True)
 
 
 
