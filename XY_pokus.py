@@ -306,8 +306,8 @@ st_ace(
     value=code,
     language="python",
     theme="monokai",
-    readonly=True,  # deaktivuje editor
-    show_gutter=False,  # volitelně schová číslování řádků
+    readonly=False,  # deaktivuje editor
+    show_gutter=True,  # volitelně schová číslování řádků
     key="read_only_ace",
     height=300
 )
