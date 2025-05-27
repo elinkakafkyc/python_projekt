@@ -271,17 +271,8 @@ for cell in nb["cells"]:
     # Sloučení všeho do jednoho stringu
 full_code = "\n\n \n\n".join(all_code)
 
-user_code = st_ace(
-    value=full_code,
-    language="python",
-    theme="pastel_on_dark",
-    readonly=False,
-    height=400,
-    key="editable_code"
-)
-
     # Zobrazení jako jedna scrollovatelná, barevná buňka
-#st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=False, height=300, key="readonly_code")
+st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=False, height=300, key="readonly_code")
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
