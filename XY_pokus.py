@@ -283,8 +283,7 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=Fals
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
 
-
-
+#staticky kod
 st.markdown("""
 <style>
 .custom-code {
