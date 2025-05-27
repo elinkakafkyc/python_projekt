@@ -30,7 +30,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 
-# odkazy na github
+# odkazy na github sidebar
 st.sidebar.markdown("""
                     **📌 Odkazy na GitHub:** 
                     """)
