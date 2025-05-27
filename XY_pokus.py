@@ -240,10 +240,10 @@ for cell in nb["cells"]:
         all_code.append(code)
 
 # Sloučení všeho do jednoho stringu
-full_code = "\n\n# --- nová buňka ---\n\n".join(all_code)
+full_code = "\n\n# \n\n".join(all_code)
 
 # Zobrazení jako jedna scrollovatelná, barevná buňka
-st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=500)
+st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=500, key="readonly_code")
 
 # Popisek kodu
 st.caption("🧠 Náhled všech kódových buněk z Jupyter notebooku v jedné buňce")
