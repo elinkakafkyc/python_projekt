@@ -2,6 +2,20 @@ import streamlit as st
 from streamlit_ace import st_ace
 from PIL import Image
 import json
+
+
+
+base = "light"
+primaryColor = "#c89fca"
+st.markdown("""
+    <style>
+    section[data-testid="stSidebar"] {
+        background-color: #c89fca;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
@@ -42,7 +56,6 @@ st.sidebar.markdown("[ **❄️ SQL kódy!**](https://github.com/MichaelaKad/sql
 st.sidebar.markdown("[ **🐼 Python kódy! 🐍**](https://github.com/elinkakafkyc/python_projekt)")
 
 st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
-
 
 
 
@@ -232,19 +245,19 @@ st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
     nb = json.load(evzen)
 
-# Posbírej všechny kódové buňky
+    # Posbírej všechny kódové buňky
 all_code = []
 for cell in nb["cells"]:
     if cell["cell_type"] == "code":
         code = "".join(cell["source"])
         all_code.append(code)
 
-# Sloučení všeho do jednoho stringu
+    # Sloučení všeho do jednoho stringu
 full_code = "\n\n \n\n".join(all_code)
 
-# Zobrazení jako jedna scrollovatelná, barevná buňka
+    # Zobrazení jako jedna scrollovatelná, barevná buňka
 st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
-# Popisek kodu
+    # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
 
