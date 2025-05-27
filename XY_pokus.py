@@ -277,16 +277,7 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=Fals
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
 
-code = '''
-import pandas as pd
-import seaborn as sns
-from scipy import stats
-import numpy as np
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-import statsmodels.tools as tools
-import matplotlib.pyplot as plt
-'''
+
 
 st.markdown("""
 <style>
@@ -305,6 +296,17 @@ import pandas as pd
 print("Ahoj Evžen")
 </div>
 """, unsafe_allow_html=True)
+
+code = '''
+import pandas as pd
+import seaborn as sns
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import statsmodels.tools as tools
+import matplotlib.pyplot as plt
+'''
 
 
 
