@@ -38,7 +38,7 @@ st.sidebar.markdown("[- **❄️ SQL kódy!**](https://github.com/MichaelaKad/sq
 
 st.sidebar.markdown("[- **🐼 Python kódy! 🐍**](https://github.com/elinkakafkyc/python_projekt)")
 
-st.sidebar.markdown("- **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
+st.sidebar.markdown("[- **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
 
 
