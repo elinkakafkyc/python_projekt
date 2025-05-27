@@ -268,7 +268,7 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
-#vlozeni kodu zkusebni
+#vlozeni kodu zkusebnii
 st.markdown("""
             `import pandas as pd
 import seaborn as sns
