@@ -287,8 +287,8 @@ st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 st.markdown("""
 <style>
 .custom-code {
-    background-color: #613F75;
-    color: #f8f8f2;
+    background-color: #c89fca;
+    color: #000000;
     font-family: monospace;
     padding: 1em;
     border-radius: 10px;
@@ -298,12 +298,6 @@ st.markdown("""
 </style>
 <div class="custom-code">
 import pandas as pd
-print("Ahoj Evžen")
-</div>
-""", unsafe_allow_html=True)
-
-code = '''
-import pandas as pd
 import seaborn as sns
 from scipy import stats
 import numpy as np
@@ -311,7 +305,9 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import statsmodels.tools as tools
 import matplotlib.pyplot as plt
-'''
+</div>
+""", unsafe_allow_html=True)
+
 
 
 
