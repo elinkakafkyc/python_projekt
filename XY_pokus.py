@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_ace import st_ace
 from PIL import Image
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
@@ -10,6 +11,7 @@ from PIL import Image
 # oddelovace st.divider()
 # nebo st.markdown("---")
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
+#editor kodu themes: monokai, github, tomorrow night, pastel_on_dark, dracula, merbivore_soft,solarized_dark,twilight
 
 # pokus o sidebar
 st.sidebar.markdown("## 📚 Kapitoly")
@@ -212,6 +214,29 @@ st.markdown(
 *Podrobný postup spolu s Python kódy jsou dostupné na Githubu:* 
         """
     )
+
+
+#vlozeni kodu z ipynb
+with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+    code = file.read()
+st_ace(value=code, language="python", theme="monokai", readonly=True, height=400)    
+st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
+
+with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+    code = file.read()
+st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=300)    
+st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
+
+with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+    code = file.read()
+st_ace(value=code, language="python", theme="twilight", readonly=True, height=500)    
+st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
+
+with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+    code = file.read()
+st_ace(value=code, language="python", theme="dracula", readonly=True, height=500)    
+st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
+
 
 # odkaz na GITHUB Eliška
 st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
