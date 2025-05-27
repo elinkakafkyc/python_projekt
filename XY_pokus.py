@@ -269,8 +269,8 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
 #vlozeni kodu zkusebnii
-st.markdown("""
-            `import pandas as pd
+code = '''
+import pandas as pd
 import seaborn as sns
 from scipy import stats
 import numpy as np
@@ -278,10 +278,26 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import statsmodels.tools as tools
 import matplotlib.pyplot as plt
+'''
 
- `
+st.code(code, language="python")
 
-""")
+# varianta 2
+
+code = '''
+import pandas as pd
+import seaborn as sns
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import statsmodels.tools as tools
+import matplotlib.pyplot as plt
+'''
+
+st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=200)
+
+
 
 
 
