@@ -57,7 +57,9 @@ st.sidebar.markdown("""
 - [6. Samostatná práce – Eliška Kafková](#samostatna-prace-eliska-kafkova)  
 - [7. Závěrečná analýza a vizualizace](#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
      - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
-     - [Scénář 1: Bez mateřské...](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
+     - [Scénář 1: Bez mateřské dovolené](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
+     - [Scénář 2: Vliv mateřské dovolené](#scenar-2-s-materskou-dovolenou)  
+- [8. Shrnutí a přínos](#shrnuti-a-prinos)  
 """, unsafe_allow_html=True)
 
 
@@ -201,7 +203,8 @@ Na základě očištěných dat jsme odpověděly na první otázku:
                
 👉 ***Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?***  
        
-📍 Výsledky jsme zobrazily **v mapě městských částí.**
+📍 Výsledky jsme zobrazily **v mapě městských částí.** Očekávaně nejhůře dopadlo úplné centrum, každopádně i okrajové části prahy již nezůstavají bohužel úplně pozadu.
+            Zřejmě se zde promítají nárazově i nové developerské projekty rostoucí i v těchto místech, což průměrnou cenu jednoduše zvedá.
 """)
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
@@ -228,7 +231,8 @@ Díky tomu jsme mohly odpovědět **na druhou otázku:**
   
 👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*** 
    
-a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
+a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé. 
+Je zde prostě vidět, že mediánové mzdy v posledních letech ani zdaleka nereflektovaly nárůst cen nemovitostí.
 
         """
     )
@@ -306,8 +310,6 @@ import statsmodels.tools as tools
 import matplotlib.pyplot as plt
 </div>
 """, unsafe_allow_html=True)
-
-
 
 
 
