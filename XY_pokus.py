@@ -88,7 +88,7 @@ st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou'
 st.write("")
 
     # MODELOVÝ BYTEČEK
-st.subheader("Modelový byteček:")
+st.subheader("🏡 Modelový byteček:")
 st.markdown(
     """
     Cílem Cecilky a Evžena je do roku 2030 našetřit a koupit vlastní byt **2+kk nebo 2+1**, ideálně v širším centru nebo klidné části Prahy. Dispozice 2+kk je nejoblíbenější a nejčetnější v inzerátech prodejů nemovitostí, a 2+1 je její nejbližší alternativou. 
@@ -122,7 +122,7 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 3 - datova priprava, hackathon
 
-st.header("🧹 Datová příprava a čištění aka první")
+st.header("Datová příprava a čištění aka první")
 st.image("hackathon.png", width=300)
 st.write("*Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, " \
 "kde jsme provedly první transformace:*")
@@ -217,7 +217,7 @@ st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt
 st.divider()  # rozdelovaci cara
 
 # sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
-st.header("📉📈 Závěrečná analýza a vizualizace na druhém Hackathonu")
+st.header("📈 Závěrečná analýza a vizualizace na druhém Hackathonu")
 st.subheader("Predikce cen bytů v roce 2030")
 st.markdown(
 """
