@@ -16,7 +16,7 @@ st.sidebar.markdown("## 📚 Kapitoly")
 st.sidebar.markdown("""
 
 - [Úvod](#uvod)  
-- [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
+- [1. Stanovení modelového scénáře](#stanoveni-modeloveho-scenare)  
      - [Modelový páreček](#modelovy-parecek)  
      - [Modelový byteček](#modelovy-bytecek)  
 - [2. Analytické otázky](#2-analyticke-otazky)  
@@ -62,7 +62,7 @@ st.image("uvod.png", use_container_width=True)
 st.divider() # rozdelovaci cara
 
 # Sekce 1 - modelový páreček a byteček
-st.header("1. Stanovení modelového scénáře")
+st.header("Stanovení modelového scénáře")
 st.write("Prvním krokem bylo nadefinování modelové situace, která by odpovídala realitě většiny mladých párů v Praze:")
 
     # MODELOVÝ PÁREČEK
