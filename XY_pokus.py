@@ -32,13 +32,13 @@ st.sidebar.markdown("""
 
 # odkazy na github
 st.sidebar.markdown("""
-                    Odkazy na GitHub: 
+                    **📌 Odkazy na GitHub:** 
                     """)
-st.sidebar.markdown("[**SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
+st.sidebar.markdown("[- **❄️ SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
-st.sidebar.markdown("[**Python kódy!**](https://github.com/elinkakafkyc/python_projekt)")
+st.sidebar.markdown("[- **🐼 Python kódy! 🐍**](https://github.com/elinkakafkyc/python_projekt)")
 
-st.sidebar.markdown("[**Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
+st.sidebar.markdown("- **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
 
 
