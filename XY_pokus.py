@@ -98,7 +98,7 @@ st.write(
     """
 )
 
-st.image("uvod.png", use_container_width=True)
+st.image("images/uvod.png", use_container_width=True)
 
 st.divider() # rozdelovaci cara
 
@@ -296,8 +296,7 @@ st.markdown("""
     overflow-x: auto;
 }
 </style>
-<div class="custom-code">
-import pandas as pd
+<div class="custom-code">import pandas as pd
 import seaborn as sns
 from scipy import stats
 import numpy as np
@@ -384,6 +383,45 @@ ale její měsíční splátka.**
 st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
 # scenar 2!
+
+st.subheader(
+    """
+***Scénář 1: Bez mateřské dovolené pouze s fenkou Bárou***
+""")
+st.markdown(
+    """
+**Odhadované příjmy v roce 2030:**  
+  
+- Cecilka: 46 998 Kč (čistého)  
+- Evžen: 56 764 Kč (čistého)  
+ **→ Celkem: 103 762 Kč měsíčně**  
+   
+**Měsíční potenciál pro hypotéku:**  
+  
+- Po odečtení výdajů a bez nájmu (který již nebudou tou dobou platit):  
+ → Mají navíc **62 809 Kč měsíčně**  
+ → Bezpečná výše měsíční splátky: **~40 000 Kč měsíčně**  
+   
+**Naspořené prostředky (dle výpočtů Elišky v Pythonu):**  
+  
+- Celkově: **2 969 338 Kč**  
+- Reálně lze použít na hypotéku: **2 500 000 Kč** (zbytek jako rezerva)  
+  
+**Možnosti páru:**  
+  
+- Hypotéka na **30 let** (u AirBank, protože i banku můžete mít rádi)  
+- Půjčka **7,5 mil. Kč**  
+- Celková cena nemovitosti: **10 mil. Kč**  
+- **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
+ale její měsíční splátka.**  
+  
+🟣  *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+
+
+"""
+)
+
+st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
 
 
