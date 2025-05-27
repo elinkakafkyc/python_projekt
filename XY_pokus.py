@@ -16,7 +16,7 @@ st.sidebar.markdown("## 📚 Kapitoly")
 st.sidebar.markdown("""
 
 - [Úvod](#uvod)  
-- [1. Stanovení modelového scénáře](#stanoveni-modeloveho-scenare)  
+- [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
      - [Modelový páreček](#modelovy-parecek)  
      - [Modelový byteček](#modelovy-bytecek)  
 - [2. Analytické otázky](#2-analyticke-otazky)  
@@ -99,7 +99,7 @@ st.markdown(
 st.divider()  # rozdelovaci cara
 
 # Sekce 2 - analytické otázky
-st.header("2. Analytické otázky")
+st.header("👉 Analytické otázky")
 st.write("*Na začátku jsme si položily následující klíčové otázky, které bude cílem zodpovědět:*")
 st.markdown(
         """
@@ -122,7 +122,7 @@ st.divider()  # rozdelovaci cara
 
 # Sekce 3 - datova priprava, hackathon
 
-st.header("3. Datová příprava a čištění aka první")
+st.header("🧹 Datová příprava a čištění aka první")
 st.image("hackathon.png", width=300)
 st.write("*Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, " \
 "kde jsme provedly první transformace:*")
@@ -147,7 +147,7 @@ st.divider()  # rozdelovaci cara
 
 
 # sekce 4 - prvni analýzy a vizualizace
-st.header("4. První analýzy a vizualizace")
+st.header("📊 První analýzy a vizualizace")
 st.markdown("""
 Na základě očištěných dat jsme odpověděly na první otázku:  
                
@@ -163,7 +163,7 @@ st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok
 st.divider()  # rozdelovaci cara
 
 # sekce 5 - samostatna prace Misa Kaderova
-st.header("5. Samostatná práce - Michaela Kaderová")
+st.header("🤵‍♀️ Samostatná práce - Michaela Kaderová")
 st.write("*Míša se zaměřila na vývoj **cen nemovitostí a průměrných mezd v čase:***")
 st.markdown(
 """
@@ -193,7 +193,7 @@ st.image("mzdy_ceny.png", caption='Růst průměrné ceny za m2 vs. růst mediá
 st.divider()  # rozdelovaci cara
 
 # sekce 6 - samostatna prace - Eliska kafkova
-st.header("6. Samostatná práce – Eliška Kafková")
+st.header("💁‍♀️ Samostatná práce – Eliška Kafková")
 st.write("*Eliška se zaměřila na **predikce mezd, spoření a měsíční výdaje párečku.***")
 st.markdown(
 """
@@ -217,7 +217,7 @@ st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt
 st.divider()  # rozdelovaci cara
 
 # sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
-st.header("7. Závěrečná analýza a vizualizace na druhém Hackathonu")
+st.header("📉📈 Závěrečná analýza a vizualizace na druhém Hackathonu")
 st.subheader("Predikce cen bytů v roce 2030")
 st.markdown(
 """
