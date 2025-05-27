@@ -3,6 +3,7 @@ from streamlit_ace import st_ace
 from PIL import Image
 import json
 
+#nazev zalozky a ikonka, uzky layout a otevreny sidebar defaultne
 st.set_page_config(
     page_title="Metr za milion",
     page_icon="🏠",
@@ -40,15 +41,15 @@ st.sidebar.markdown("## 📚 Kapitoly")
 st.sidebar.markdown("""
 
 - [Úvod](#uvod)  
-- [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
+- [1. Stanovení modelového scénáře](#stanoveni-modeloveho-scenare)  
      - [Modelový páreček](#modelovy-parecek)  
      - [Modelový byteček](#modelovy-bytecek)  
-- [2. Analytické otázky](#2-analyticke-otazky)  
-- [3. Datová příprava a čištění aka první Hackathon](#3-datova-priprava-a-cisteni-aka-prvni)  
-- [4. První analýzy a vizualizace](#4-prvni-analyzy-a-vizualizace)  
-- [5. Samostatná práce – Michaela Kaderová](#5-samostatna-prace-michaela-kaderova)  
-- [6. Samostatná práce – Eliška Kafková](#6-samostatna-prace-eliska-kafkova)  
-- [7. Závěrečná analýza a vizualizace](#7-zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
+- [2. Analytické otázky](#analyticke-otazky)  
+- [3. Datová příprava a čištění aka první Hackathon](#datova-priprava-a-cisteni-aka-prvni)  
+- [4. První analýzy a vizualizace](#prvni-analyzy-a-vizualizace)  
+- [5. Samostatná práce – Michaela Kaderová](#samostatna-prace-michaela-kaderova)  
+- [6. Samostatná práce – Eliška Kafková](#samostatna-prace-eliska-kafkova)  
+- [7. Závěrečná analýza a vizualizace](#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
      - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
      - [Scénář 1: Bez mateřské...](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
 """, unsafe_allow_html=True)
