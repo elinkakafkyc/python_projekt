@@ -285,8 +285,25 @@ user_code = st_ace(
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
+code = '''
+# Testovací kód
+import pandas as pd
+print("Hello Evžen")
+'''
+
+user_code = st_ace(
+    value=code,
+    language="python",
+    theme="pastel_on_dark",
+    readonly=False,
+    height=300,
+    key="editable_code_test"
+)
+
+if user_code:
+    st.success("Tlačítko Apply je aktivní a kód byl upraven.")
+
 if st.button("▶️ Spustit kód"):
-    st.markdown("#### 📥 Výstup:")
     st.code(user_code, language="python")
 
 
