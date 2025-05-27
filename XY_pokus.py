@@ -20,7 +20,7 @@ st.sidebar.markdown("""
      - [Modelový páreček](#modelovy-parecek)  
      - [Modelový byteček](#modelovy-bytecek)  
 - [2. Analytické otázky](#2-analyticke-otazky)  
-- [3. Datová příprava a čištění aka první](#3-datova-priprava-a-cisteni-aka-prvni)  
+- [3. Datová příprava a čištění aka první Hackathon](#3-datova-priprava-a-cisteni-aka-prvni)  
 - [4. První analýzy a vizualizace](#4-prvni-analyzy-a-vizualizace)  
 - [5. Samostatná práce – Michaela Kaderová](#5-samostatna-prace-michaela-kaderova)  
 - [6. Samostatná práce – Eliška Kafková](#6-samostatna-prace-eliska-kafkova)  
@@ -34,11 +34,11 @@ st.sidebar.markdown("""
 st.sidebar.markdown("""
                     **📌 Odkazy na GitHub:** 
                     """)
-st.sidebar.markdown("[ **❄️ SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
+st.sidebar.markdown("❄️[ ** SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
-st.sidebar.markdown("[ **🐼 Python kódy! 🐍**](https://github.com/elinkakafkyc/python_projekt)")
+st.sidebar.markdown("🐼[ ** Python kódy! **]🐍(https://github.com/elinkakafkyc/python_projekt)")
 
-st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
+st.sidebar.markdown("🗝️[ ** Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
 
 
@@ -115,8 +115,7 @@ st.markdown(
         """
     )
 
-    # Prostor pro další interaktivní prvky:
-st.info("💡 Tip: Zkouška sirén.")
+
 
 st.divider()  # rozdelovaci cara
 
