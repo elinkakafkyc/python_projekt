@@ -15,8 +15,7 @@ from PIL import Image
 st.sidebar.markdown("## 📚 Kapitoly")
 
 st.sidebar.markdown("""
-### 📚 Navigace
-
+### 
 - [Úvod](#uvod)  
 - [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
      - [Modelový páreček](#modelovy-parecek)  
