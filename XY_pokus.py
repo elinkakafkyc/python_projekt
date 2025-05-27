@@ -65,6 +65,14 @@ st.sidebar.markdown("[ **🐼 Python kódy! 🐍**](https://github.com/elinkakaf
 
 st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
+# skryti tlacitek z st ace u kodu
+st.markdown("""
+    <style>
+    div[role="button"][tabindex="0"] {
+        display: none !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 
 # NADPIS A AUTORI
