@@ -217,22 +217,22 @@ st.markdown(
 
 
 #vlozeni kodu z ipynb
-with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
 st_ace(value=code, language="python", theme="monokai", readonly=True, height=400)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
 
-with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
 st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=300)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
 
-with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
 st_ace(value=code, language="python", theme="twilight", readonly=True, height=500)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
 
-with open("01_predikce_mzdy_evzen.py", "r", encoding="utf-8") as file:
+with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
 st_ace(value=code, language="python", theme="dracula", readonly=True, height=500)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.py`)")
