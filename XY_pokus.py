@@ -243,7 +243,17 @@ for cell in nb["cells"]:
 full_code = "\n\n# \n\n".join(all_code)
 
 # Zobrazení jako jedna scrollovatelná, barevná buňka
-st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=500, key="readonly_code")
+st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
+
+#skryti tlacitka apply pod kodem
+st.markdown("""
+    <style>
+    .stButton button {
+        display: none;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 
 # Popisek kodu
 st.caption("🧠 Náhled všech kódových buněk z Jupyter notebooku v jedné buňce")
