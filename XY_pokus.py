@@ -34,11 +34,11 @@ st.sidebar.markdown("""
 st.sidebar.markdown("""
                     Odkazy na GitHub: 
                     """)
-st.markdown("[**SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
+st.sidebar.markdown("[**SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
-st.markdown("[**Python kódy!**](https://github.com/elinkakafkyc/python_projekt)")
+st.sidebar.markdown("[**Python kódy!**](https://github.com/elinkakafkyc/python_projekt)")
 
-st.markdown("[**Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
+st.sidebar.markdown("[**Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
 
 
