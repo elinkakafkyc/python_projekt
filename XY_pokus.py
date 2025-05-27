@@ -35,6 +35,12 @@ st.markdown("""
 # nebo st.markdown("---")
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 #editor kodu themes: monokai, github, tomorrow night, pastel_on_dark, dracula, merbivore_soft,solarized_dark,twilight
+#f4a2c3
+#c89fca
+#613F75
+#568ea3 
+#ECD444
+
 
 # pokus o sidebaros
 st.sidebar.markdown("## 📚 Kapitoly")
@@ -282,7 +288,7 @@ st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 st.markdown("""
 <style>
 .custom-code {
-    background-color: #2d2a55;
+    background-color: #613F75;
     color: #f8f8f2;
     font-family: monospace;
     padding: 1em;
