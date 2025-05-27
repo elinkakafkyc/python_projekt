@@ -232,13 +232,21 @@ st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
     nb = json.load(evzen)
 
-for i, cell in enumerate(nb["cells"]):
+# Posbírej všechny kódové buňky
+all_code = []
+for cell in nb["cells"]:
     if cell["cell_type"] == "code":
         code = "".join(cell["source"])
-        st.markdown(f"##### 🧠 Kódová buňka {i+1}")
-        st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=200)
+        all_code.append(code)
 
+# Sloučení všeho do jednoho stringu
+full_code = "\n\n# --- nová buňka ---\n\n".join(all_code)
 
+# Zobrazení jako jedna scrollovatelná, barevná buňka
+st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=500)
+
+# Popisek kodu
+st.caption("🧠 Náhled všech kódových buněk z Jupyter notebooku v jedné buňce")
 
 
 
