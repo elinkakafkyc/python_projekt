@@ -13,9 +13,8 @@ from PIL import Image
 
 # pokus o sidebar
 st.sidebar.markdown("## 📚 Kapitoly")
-
 st.sidebar.markdown("""
-### 
+
 - [Úvod](#uvod)  
 - [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
      - [Modelový páreček](#modelovy-parecek)  
@@ -29,6 +28,17 @@ st.sidebar.markdown("""
      - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
      - [Scénář 1: Bez mateřské...](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
 """, unsafe_allow_html=True)
+
+
+# odkazy na github
+st.sidebar.markdown("""
+                    Odkazy na GitHub: 
+                    """)
+st.markdown("[**SQL kódy!**](https://github.com/MichaelaKad/sql_projekt.git)")
+
+st.markdown("[**Python kódy!**](https://github.com/elinkakafkyc/python_projekt)")
+
+st.markdown("[**Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
 
 
