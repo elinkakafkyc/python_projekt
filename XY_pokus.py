@@ -123,7 +123,7 @@ st.markdown(
     # OBRÁZEK 1 - MODELOVÝ PÁREČEK
 
 st.write("")
-image = Image.open("parecek.png")
+image = Image.open("images/parecek.png")
 st.image(image, caption='Modelový páreček - Cecilka a Evžen s fenkou Bárou', use_container_width=True)
 
 st.write("")
@@ -164,7 +164,7 @@ st.divider()  # rozdelovaci cara
 # Sekce 3 - datova priprava, hackathon
 
 st.header("Datová příprava a čištění aka první")
-st.image("hackathon.png", width=300)
+st.image("images/hackathon.png", width=300)
 st.write("*Data o realitních inzerátech jsme získaly od **Apify** a nahrály do **Kebooly**, " \
 "kde jsme provedly první transformace:*")
 st.markdown(
@@ -205,7 +205,7 @@ Na základě očištěných dat jsme odpověděly na první otázku:
 """)
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
-st.image("mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
+st.image("images/mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -235,7 +235,7 @@ a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé.
 
 # VIZUALIZACE CENY BYTŮ ZA POSLEDNÍ ROKY
 st.write()
-st.image("mzdy_ceny.png", caption='Růst průměrné ceny za m2 vs. růst mediánové mzdy', use_container_width=True)
+st.image("images/mzdy_ceny.png", caption='Růst průměrné ceny za m2 vs. růst mediánové mzdy', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -329,7 +329,7 @@ Pro každou městskou část jsme predikované ceny vynásobily hodnotou 58 m²,
 st.write()
 
 # VIZUALIZACE nejdražších částí prahy top 5 a predikce do 2030
-st.image("ceny_bytu_24_30.png", caption='5 nejdražších částí Prahy v roce 2024 a jejich predikce pro rok 2030', use_container_width=True)
+st.image("images/ceny_bytu_24_30.png", caption='5 nejdražších částí Prahy v roce 2024 a jejich predikce pro rok 2030', use_container_width=True)
 
 st.markdown(
     """
@@ -380,7 +380,7 @@ ale její měsíční splátka.**
 """
 )
 
-st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
+st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
 # scenar 2!
 
@@ -421,7 +421,7 @@ ale její měsíční splátka.**
 """
 )
 
-st.image("mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
+st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
 
 
 
