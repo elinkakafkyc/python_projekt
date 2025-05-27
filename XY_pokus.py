@@ -11,7 +11,7 @@ from PIL import Image
 # nebo st.markdown("---")
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 
-
+# pokus o sidebar
 st.sidebar.markdown("## 📚 Kapitoly")
 
 st.sidebar.markdown("""
