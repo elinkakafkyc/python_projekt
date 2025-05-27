@@ -19,16 +19,16 @@ st.sidebar.markdown("""
 
 - [Úvod](#uvod)  
 - [1. Stanovení modelového scénáře](#1-stanoveni-modeloveho-scenare)  
-     [Modelový páreček](#modelovy-parecek)  
-     [Modelový byteček](#modelovy-bytecek)  
+     - [Modelový páreček](#modelovy-parecek)  
+     - [Modelový byteček](#modelovy-bytecek)  
 - [2. Analytické otázky](#2-analyticke-otazky)  
 - [3. Datová příprava a čištění aka první](#3-datova-priprava-a-cisteni-aka-prvni)  
 - [4. První analýzy a vizualizace](#4-prvni-analyzy-a-vizualizace)  
 - [5. Samostatná práce – Michaela Kaderová](#5-samostatna-prace-michaela-kaderova)  
 - [6. Samostatná práce – Eliška Kafková](#6-samostatna-prace-eliska-kafkova)  
 - [7. Závěrečná analýza a vizualizace](#7-zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
-     [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
-     [Scénář 1: Bez mateřské...](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
+     - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
+     - [Scénář 1: Bez mateřské...](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
 """, unsafe_allow_html=True)
 
 
