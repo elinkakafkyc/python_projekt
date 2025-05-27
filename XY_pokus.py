@@ -4,7 +4,7 @@ from PIL import Image
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
-# dve mezery na konci textu jsou novej radek!!!
+# dve mezery na konci textu jsou novej radek
 # pevna mezera st.markdown("<br>", unsafe_allow_html=True)
 # vickrat za sebou st.markdown("<br><br>", unsafe_allow_html=True)
 # mala mezera st.write("")
