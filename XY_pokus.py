@@ -285,7 +285,9 @@ user_code = st_ace(
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
-
+if st.button("▶️ Spustit kód"):
+    st.markdown("#### 📥 Výstup:")
+    st.code(user_code, language="python")
 
 
 st.divider()  # rozdelovnik
