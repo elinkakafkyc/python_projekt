@@ -46,9 +46,9 @@ st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkaka
 # NADPIS A AUTORI
 st.title("Metr za milion: Mileniálské dilema")
 
-st.subheader("*Eliška Kafková & Michaela Kaderová  " \
-" " \
-"Mentoři: Eliška Valterová & Jakub Červinka*")
+st.subheader("*Eliška Kafková  &  Michaela Kaderová*") 
+
+st.subheader("*Mentoři: Eliška Valterová  &  Jakub Červinka*")
 
 # ÚVOD
 st.header("Úvod")
