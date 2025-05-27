@@ -271,48 +271,21 @@ for cell in nb["cells"]:
     # Sloučení všeho do jednoho stringu
 full_code = "\n\n \n\n".join(all_code)
 
+user_code = st_ace(
+    value=full_code,
+    language="python",
+    theme="pastel_on_dark",
+    readonly=False,
+    height=400,
+    key="editable_code"
+)
+
     # Zobrazení jako jedna scrollovatelná, barevná buňka
-st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
+#st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=False, height=300, key="readonly_code")
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
-#vlozeni kodu zkusebnii
-code = '''
-import pandas as pd
-import seaborn as sns
-from scipy import stats
-import numpy as np
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-import statsmodels.tools as tools
-import matplotlib.pyplot as plt
-'''
 
-st.code(code, language="sql")
-
-# varianta 2
-
-code = '''
-import pandas as pd
-import seaborn as sns
-from scipy import stats
-import numpy as np
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-import statsmodels.tools as tools
-import matplotlib.pyplot as plt
-'''
-user_code = st_ace(
-    value=code,
-    language="python",
-    theme="monokai",
-    readonly=False,  # editor je aktivní
-    key="editable_code",
-    height=300
-)
-
-if st.button("💾 Spustit kód"):
-    st.code(user_code, language="python")
 
 
 st.divider()  # rozdelovnik
