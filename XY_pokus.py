@@ -97,7 +97,7 @@ st.write(
     Naším cílem bylo nejen zjistit, jaká je současná situace, ale také ji zasadit do reálného příběhu – proto jsme vytvořily fiktivní pár Cecilku a Evžena a jejich sen o vlastním bytě v hlavním městě.
     """
 )
-
+#obrazek uvod
 st.image("images/uvod.png", use_container_width=True)
 
 st.divider() # rozdelovaci cara
