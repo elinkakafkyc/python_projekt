@@ -36,7 +36,7 @@ st.markdown("""
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 #editor kodu themes: monokai, github, tomorrow night, pastel_on_dark, dracula, merbivore_soft,solarized_dark,twilight
 
-# pokus o sidebar
+# pokus o sidebaros
 st.sidebar.markdown("## 📚 Kapitoly")
 st.sidebar.markdown("""
 
