@@ -268,6 +268,21 @@ st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
 
+#vlozeni kodu zkusebni
+st.markdown("""
+            `import pandas as pd
+import seaborn as sns
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import statsmodels.tools as tools
+import matplotlib.pyplot as plt
+
+ `
+
+""")
+
 
 
 st.divider()  # rozdelovnik
