@@ -242,7 +242,7 @@ st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_e
 st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 
 
-st.divider()  # rozdelovaci cara
+st.divider()  # rozdelovnik
 
 # sekce 7 - zaverecna analyza a vizualizace na druhem hackathonu
 st.header("📈 Závěrečná analýza a vizualizace na druhém Hackathonu")
