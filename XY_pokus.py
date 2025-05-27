@@ -149,10 +149,10 @@ st.markdown(
 # odkaz na GITHUB míša
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
-# SQL kodik
+# SQL kodik- naloadovat 
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
     code = file.read()
-st_ace(value=code, language="python", theme="pastel_on_dark", readonly=True, height=300)    
+st_ace(value=code, language="sql", theme="pastel_on_dark", readonly=True, height=300)    
 st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.ipynb`)")
 
 
