@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 
-# nastaveni barvy sidebaru f4dbe5
+# nastaveni barvy sidebaru f4dbe5 puvodne
 base = "light"
 primaryColor = "#f4a2c3"
 st.markdown("""
