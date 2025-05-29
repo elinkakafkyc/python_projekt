@@ -73,14 +73,6 @@ st.sidebar.markdown("[ **🐼 Python kódy! 🐍**](https://github.com/elinkakaf
 
 st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
-# skryti tlacitek z st ace u kodu
-st.markdown("""
-    <style>
-    div[role="button"][tabindex="0"] {
-        display: none !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
 
 # NADPIS A AUTORI
@@ -188,6 +180,9 @@ st.markdown(
 st.markdown("[**📌 Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 st.write()  
 
+st.markdown("""Z vyčištěných dat jsme následně mohly začít tvořit první SQL dotazy – 
+            například pro výpočet průměrné ceny za m² podle jednotlivých městských částí, 
+            což bude klíčový podklad pro zodpovězení naší první otázky.""")  
   
 # SQL kodik
 st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")   
@@ -230,7 +225,7 @@ st.divider()  # rozdelovaci cara
 # sekce 4 - prvni analýzy a vizualizace
 st.header("📊 První analýzy a vizualizace")
 st.markdown("""
-Na základě očištěných dat jsme odpověděly na první otázku:  
+Nyní jsme již mohly odpovědět na naši první otázku:    
                
 👉 ***Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?***  
        
