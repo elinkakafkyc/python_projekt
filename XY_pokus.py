@@ -18,7 +18,7 @@ primaryColor = "#f4a2c3"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #f4a2c3;
+        background-color: #f4dbe5;
     }
     </style>
 """, unsafe_allow_html=True)
