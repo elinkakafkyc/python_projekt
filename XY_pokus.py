@@ -213,7 +213,7 @@ st_ace(
 )
 st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
 
-#datovy model
+#datovy model obrazek
 
 st.markdown("""V mezičase jsme postupně tvořily datový model:""")  
 
