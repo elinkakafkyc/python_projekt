@@ -184,8 +184,9 @@ st.markdown(
     ) 
 
 # odkaz na GITHUB míša
-st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
+st.markdown("[      -**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
+  
 # SQL kodik
 st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")   
 
@@ -293,7 +294,7 @@ st.markdown(
 
 
 # odkaz na GITHUB Eliška
-st.markdown("[**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
+st.markdown("[      -**Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 
 #vlozeni kodu z ipynb
 
