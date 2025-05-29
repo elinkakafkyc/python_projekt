@@ -257,7 +257,7 @@ Díky tomu jsme mohly odpovědět **na druhou otázku:**
   
 👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*** 
    
-a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé. 
+...a potvrdily tak výrazné zhoršení dostupnosti bydlení pro mladé. 
  Je zřejmé, že růst mediánových mezd v posledních letech nestačil držet krok s výrazným zdražováním nemovitostí.
 
         """
