@@ -193,7 +193,6 @@ st.write()
 st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")   
 
 code = '''
-
 SELECT
     "MC_spravne",
     ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
