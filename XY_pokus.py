@@ -184,8 +184,9 @@ st.markdown(
     ) 
 
 # odkaz na GITHUB míša
+
 st.markdown("[**📌 Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
-  
+st.write()  
 
   
 # SQL kodik
@@ -234,8 +235,9 @@ Na základě očištěných dat jsme odpověděly na první otázku:
                
 👉 ***Jaké jsou aktuální průměrné ceny za m² v jednotlivých částech Prahy (2024)?***  
        
-📍 Výsledky jsme zobrazily **v mapě městských částí.** Očekávaně nejhůře dopadlo úplné centrum, každopádně i okrajové části prahy již nezůstavají bohužel úplně pozadu.
-            Zřejmě se zde promítají nárazově i nové developerské projekty rostoucí i v těchto místech, což průměrnou cenu jednoduše zvedá.
+📍 Výsledky jsme zobrazily **v mapě městských částí.** Jak se dalo čekat, nejvyšší ceny za m² jsou v úplném centru města,
+             ale ani okrajové části Prahy již nezůstávají pozadu.
+            Zřejmě se zde nárazově promítají nové developerské projekty vznikající v těchto lokalitách, což průměrné ceny zvyšuje.
 """)
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
@@ -263,7 +265,7 @@ Díky tomu jsme mohly odpovědět **na druhou otázku:**
 👉 ***Jak se ceny modelového bytu změnily za poslední roky? A jak se změnily mzdy?*** 
    
 a potvrdily výrazné zhoršení dostupnosti bydlení pro mladé. 
-Je zde prostě vidět, že mediánové mzdy v posledních letech ani zdaleka nereflektovaly nárůst cen nemovitostí.
+ Je zřejmé, že růst mediánových mezd v posledních letech nestačil držet krok s výrazným zdražováním nemovitostí.
 
         """
     )
@@ -296,6 +298,7 @@ st.markdown(
 
 # odkaz na GITHUB Eliška
 st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
+st.write()
 
 #vlozeni kodu z ipynb
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
