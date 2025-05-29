@@ -391,7 +391,7 @@ st.markdown(
 - **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
 ale její měsíční splátka.**  
   
-🟣  *V mapě jsme růžově vyznačily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1.*
+🟣  *V mapě jsme **růžově** vyznačily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1.*
 
 
 """
@@ -399,7 +399,7 @@ ale její měsíční splátka.**
 
 st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného **bytu.**', use_container_width=True)
 
-# scenar 2!
+# scenar 2
 
 st.subheader(
     """
@@ -433,7 +433,7 @@ ale její měsíční splátka.**
 - **V této situaci by jim však postupem času byt 2+kk nebo 2+1 nestačil,
  a navíc by jim rostly měsíční výdaje, které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
   
-🟣  *Opět jsme zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt.*
+🟣  *Opět jsme **růžově** zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt.*
 
 
 """
