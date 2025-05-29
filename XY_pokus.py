@@ -343,11 +343,18 @@ st.image("images/ceny_bytu_24_30.png", caption='5 nejdražších částí Prahy 
 
 st.markdown(
     """
-Výsledky jsme zobrazily v mapě, kde byly zvýrazněny čtvrti, ve kterých by měl pár reálnou šanci na koupi bytu podle dvou scénářů:
-bez mateřské a s mateřskou dovolenou.  Věnujeme se tím našim závěrečným otázkám:
+Graf znázorňuje pět nejdražších městských částí Prahy v roce 2024 a jejich predikovanou cenovku bytu v roce 2030.
+ Zatímco u většiny lokalit očekáváme pokračující růst cen, výjimku tvoří Praha 1, kde naše predikce naznačuje mírný pokles ceny. 
+Tento vývoj může naznačovat nasycení trhu v centru města nebo rostoucí zájem o jiné atraktivní městské části, kde vznikají nové developerské projekty a nabízejí modernější bydlení v dostupnějších lokalitách.
+
+      
+Nyní se již můžeme věnovat našim závěrečným otázkám:
    
 👉 ***Dosáhne modelový pár na hypotéku v roce 2030? 
 Jaké jsou jejich šance vzhledem k jejich mzdě a bude to dostačující i při rostoucí rodině?***
+
+Výsledky jsme zobrazily v mapě, kde byly zvýrazněny čtvrti, ve kterých by měl pár reálnou šanci na koupi bytu podle dvou scénářů:
+ bez mateřské a s mateřskou dovolenou. 
 
 """)
 
@@ -384,13 +391,13 @@ st.markdown(
 - **Limitující nebyl potřebný základ pro žádost o hypotéku (10 % z ceny nemovitosti při věku žadatele do 36 let), 
 ale její měsíční splátka.**  
   
-🟣  *V mapě jsme zobrazily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1 - růžové městské části.*
+🟣  *V mapě jsme růžově vyznačily městské části, kde lze za tuto cenu v roce 2030 koupit byt 2+kk nebo 2+1.*
 
 
 """
 )
 
-st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného 2+kk.', use_container_width=True)
+st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného **bytu.**', use_container_width=True)
 
 # scenar 2!
 
@@ -421,10 +428,10 @@ st.markdown(
 - Hypotéka na **30 let** (u AirBank, protože i banku můžete mít rádi)  
 - Půjčka **7,5 mil. Kč**  
 - Celková cena nemovitosti: **9 mil. Kč**  
-- **Limitujíc opět nebyl potřebný základ pro žádost o hypotéku, 
+- **Limitující opět nebyl potřebný základ pro žádost o hypotéku, 
 ale její měsíční splátka.**  
-- **V této situaci by jim však postupem času byt 2+kk nestačil,
- a navíc by jim rostly měsíční výdaje které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
+- **V této situaci by jim však postupem času byt 2+kk nebo 2+1 nestačil,
+ a navíc by jim rostly měsíční výdaje, které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
   
 🟣  *Opět jsme zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt.*
 
@@ -432,7 +439,7 @@ ale její měsíční splátka.**
 """
 )
 
-st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk po mateřské.', use_container_width=True)
+st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk nebo 2+1 po mateřské.', use_container_width=True)
 
 
 st.divider()  # rozdelovnaci cara
