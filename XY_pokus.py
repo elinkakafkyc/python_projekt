@@ -184,7 +184,8 @@ st.markdown(
     ) 
 
 # odkaz na GITHUB míša
-st.markdown("[**        📌 Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
+st.markdown("[**📌 Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
+  
 
   
 # SQL kodik
@@ -294,7 +295,7 @@ st.markdown(
 
 
 # odkaz na GITHUB Eliška
-st.markdown("[**        📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
+st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 
 #vlozeni kodu z ipynb
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
