@@ -187,7 +187,7 @@ st.markdown(
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
 # SQL kodik
-
+st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
 code = '''
 -- SQL dotaz na mzdy podle pohlaví a věku
 SELECT
@@ -204,7 +204,7 @@ GROUP BY "MC_spravne"
 ORDER BY "prumerna_cena_na_m2" DESC;
 
 '''
-st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
+
 st_ace(
     value=code,
     language="sql",
