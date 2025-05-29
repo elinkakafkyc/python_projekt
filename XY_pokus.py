@@ -396,7 +396,7 @@ ale její měsíční splátka.**
 """
 )
 
-st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného **bytu.**', use_container_width=True)
+st.image("images/mapa_bez_materske.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení vysněného bytu.', use_container_width=True)
 
 # scenar 2
 
