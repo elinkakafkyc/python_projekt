@@ -185,7 +185,6 @@ st.markdown("""Z vyčištěných dat jsme následně mohly začít tvořit prvn�
             což bude klíčový podklad pro zodpovězení naší první otázky.""")  
   
 # SQL kodik
-st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")   
 
 code = '''
 SELECT
@@ -293,9 +292,9 @@ st.markdown(
 # odkaz na GITHUB Eliška
 st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 st.write()
-
+#dopsat nazev kodu
 #vlozeni kodu z ipynb
-st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
+
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
     nb = json.load(evzen)
 
