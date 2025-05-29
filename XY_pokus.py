@@ -12,9 +12,9 @@ st.set_page_config(
 )
 
 
-# nastaveni barvy sidebaru
+# nastaveni barvy sidebaru f4dbe5
 base = "light"
-primaryColor = "#f4dbe5"
+primaryColor = "#f4a2c3"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
@@ -219,7 +219,7 @@ st_ace(
 
 #datovy model obrazek
 
-st.markdown("""V mezičase jsme postupně tvořily datový model:""")  
+st.markdown("""V mezičase jsme postupně tvořily **datový model:**""")  
 
 st.image("images/model.png", caption='Datový model naší situace', use_container_width=True)
 
