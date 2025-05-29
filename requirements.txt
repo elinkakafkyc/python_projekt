@@ -5,3 +5,4 @@ matplotlib
 scikit-learn
 streamlit-ace
 json
+##knihovny
