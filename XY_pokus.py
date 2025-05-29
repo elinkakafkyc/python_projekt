@@ -186,11 +186,38 @@ st.markdown(
 # odkaz na GITHUB míša
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
-# SQL kodik- naloadovat 
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as file:
-    code = file.read()
-st_ace(value=code, language="sql", theme="pastel_on_dark", readonly=True, height=300)    
-st.caption("Kód výpočtu predikce mezd pro Evžena (soubor `01_predikce_mzdy_evzen.ipynb`)")
+# SQL kodik
+code = '''
+-- SQL dotaz na mzdy podle pohlaví a věku
+SELECT
+    "MC_spravne",
+    ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
+FROM "vycistena_tabulka_oprava_2"
+WHERE 
+        "data_price" IS NOT NULL
+    AND "data_price" != ''
+    AND "plocha" IS NOT NULL
+    AND "plocha" != ''
+    AND YEAR = 2024
+GROUP BY "MC_spravne"
+ORDER BY "prumerna_cena_na_m2" DESC;
+
+'''
+
+st_ace(
+    value=code,
+    language="sql",
+    theme="pastel_on_dark",
+    readonly=True,
+    height=300
+)
+st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
+
+#datovy model
+
+st.markdown("""V mezičase jsme postupně tvořily datový model:""")  
+
+st.image("images/model.png", caption='Datový model naší situace', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -208,7 +235,7 @@ Na základě očištěných dat jsme odpověděly na první otázku:
 """)
 
 # VIZUALIZACE MAPA CENY V JEDNOTLIVYCH CASTECH 2024
-st.image("images/mapa.png", caption='Cena za m2 v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
+st.image("images/mapa.png", caption='Cena za m² v jednotlivých částech Prahy pro rok 2024', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -239,7 +266,7 @@ Je zde prostě vidět, že mediánové mzdy v posledních letech ani zdaleka ner
 
 # VIZUALIZACE CENY BYTŮ ZA POSLEDNÍ ROKY
 st.write()
-st.image("images/mzdy_ceny.png", caption='Růst průměrné ceny za m2 vs. růst mediánové mzdy', use_container_width=True)
+st.image("images/mzdy_ceny.png", caption='Růst průměrné ceny za m² vs. růst mediánové mzdy', use_container_width=True)
 
 
 st.divider()  # rozdelovaci cara
@@ -282,35 +309,9 @@ for cell in nb["cells"]:
 full_code = "\n\n \n\n".join(all_code)
 
     # Zobrazení jako jedna scrollovatelná, barevná buňka
-st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=False, height=300, key="readonly_code")
+st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
     # Popisek kodu
 st.caption("Jupyter notebook pro predikci mzdy Evžena do roku 2030.")
-
-
-#staticky kod
-st.markdown("""
-<style>
-.custom-code {
-    background-color: #c89fca;
-    color: #000000;
-    font-family: monospace;
-    padding: 1em;
-    border-radius: 10px;
-    white-space: pre;
-    overflow-x: auto;
-}
-</style>
-<div class="custom-code">import pandas as pd
-import seaborn as sns
-from scipy import stats
-import numpy as np
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-import statsmodels.tools as tools
-import matplotlib.pyplot as plt
-</div>
-""", unsafe_allow_html=True)
-
 
 
 st.divider()  # rozdelovnik
@@ -363,7 +364,7 @@ st.markdown(
  → Mají navíc **62 809 Kč měsíčně**  
  → Bezpečná výše měsíční splátky: **~40 000 Kč měsíčně**  
    
-**Naspořené prostředky (dle výpočtů Elišky v Pythonu):**  
+**Naspořené prostředky :**  
   
 - Celkově: **2 969 338 Kč**  
 - Reálně lze použít na hypotéku: **2 500 000 Kč** (zbytek jako rezerva)  
@@ -450,6 +451,8 @@ To považujeme za hlavní přínos našeho projektu.
 """)
 
 st.image("images/materska.png", use_container_width=True)
+st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
+"Teď už potřebují nejen hypotéku, ale i o trochu větší botník.")
 
 
 
