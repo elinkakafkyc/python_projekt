@@ -187,6 +187,7 @@ st.markdown(
 st.markdown("[**Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 
 # SQL kodik
+
 code = '''
 -- SQL dotaz na mzdy podle pohlaví a věku
 SELECT
@@ -203,7 +204,7 @@ GROUP BY "MC_spravne"
 ORDER BY "prumerna_cena_na_m2" DESC;
 
 '''
-
+st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
 st_ace(
     value=code,
     language="sql",
@@ -211,7 +212,7 @@ st_ace(
     readonly=True,
     height=300
 )
-st.caption("*Výpočet průměrné ceny na m² dle městské části v roce 2024.*")
+
 
 #datovy model obrazek
 
@@ -428,7 +429,7 @@ ale její měsíční splátka.**
 st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk po mateřské.', use_container_width=True)
 
 
-st.divider()  # rozdelovnik
+st.divider()  # rozdelovnaci cara
 
 st.header("🌎 Shrnutí a přínos")
 st.markdown("""
