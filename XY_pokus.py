@@ -153,8 +153,8 @@ st.subheader("*Eliška Kafková  &  Michaela Kaderová*")
 st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 
 
-# if st.button("❄️ Zapni sníh"):
-#     st.snow()
+if st.sidebar.button("Vítáme tě!"):
+     st.snow()
 
 # if st.button("🔔 Zobraz toast"):
 #     st.toast("Tohle je toasťáček! 🥳")
