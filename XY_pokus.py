@@ -35,6 +35,7 @@ st.markdown("""
 # nebo st.markdown("---")
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 #editor kodu themes: monokai, github, tomorrow night, pastel_on_dark, dracula, merbivore_soft,solarized_dark,twilight
+# nase barvena paletka:
 #f4a2c3
 #c89fca
 #613F75
@@ -73,6 +74,27 @@ st.sidebar.markdown("[ **🐼 Python kódy! 🐍**](https://github.com/elinkakaf
 
 st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
+#barevna paleta
+
+
+barvy = {
+    "Růžová (#f4a2c3)": "#f4a2c3",
+    "Fialová světlá (#c89fca)": "#c89fca",
+    "Tmavá fialová (#613F75)": "#613F75",
+    "Modrošedá (#568ea3)": "#568ea3",
+    "Žlutá (#ECD444)": "#ECD444"
+}
+
+# vyber barvy
+vybrana_barva = st.radio("Vyber barvu", list(barvy.keys()), horizontal=True)
+
+# ziskani hex kodu
+hex_kod = barvy[vybrana_barva]
+
+# zobrazeni barvy
+st.markdown(f"""
+<div style="width:100px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
+""", unsafe_allow_html=True)
 
 
 # NADPIS A AUTORI
