@@ -18,7 +18,7 @@ primaryColor = "#fcf0f4"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #fcf0f4;
+        background-color: #c89fca;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -86,7 +86,7 @@ barvy = {
 }
 
 # vyber barvy
-vybrana_barva = st.sidebar.radio("**###Prohlídni si barvy z naší palety!**", list(barvy.keys()), horizontal=True)
+vybrana_barva = st.sidebar.radio("**Prohlídni si barvy z naší palety!**", list(barvy.keys()), horizontal=True)
 
 # ziskani kodu
 hex_kod = barvy[vybrana_barva]
