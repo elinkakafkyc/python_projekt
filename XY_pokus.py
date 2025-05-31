@@ -14,11 +14,11 @@ st.set_page_config(
 
 # nastaveni barvy sidebaru f4dbe5 puvodne 
 base = "light"
-primaryColor = "#fce2ec"
+primaryColor = "#fcf0f4"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #fce2ec;
+        background-color: #fcf0f4;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -96,13 +96,6 @@ st.sidebar.markdown(f"""
 <div style="width:200px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
 """, unsafe_allow_html=True)
 
-st.sidebar.markdown("### Celá paleta")
-for barva in barvy.values():
-    border = "3px solid black" if barva == hex_kod else "1px solid #ccc"
-    st.sidebar.markdown(
-        f'<div style="display:inline-block; width:50px; height:50px; background-color:{barva}; border:{border}; margin:5px; border-radius:5px;"></div>',
-        unsafe_allow_html=True
-    )
 
 
 # NADPIS A AUTORI
