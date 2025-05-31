@@ -86,7 +86,7 @@ barvy = {
 }
 
 # vyber barvy
-vybrana_barva = st.radio("Vyber barvu", list(barvy.keys()), horizontal=True)
+vybrana_barva = st.radio("Vyber barvu z naší palety!", list(barvy.keys()), horizontal=True)
 
 # ziskani kodu
 hex_kod = barvy[vybrana_barva]
