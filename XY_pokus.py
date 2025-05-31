@@ -14,11 +14,11 @@ st.set_page_config(
 
 # nastaveni barvy sidebaru f4dbe5 puvodne 
 base = "light"
-primaryColor = "#f4a2c3"
+primaryColor = "#fce2ec"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #f4dbe5;
+        background-color: #fce2ec;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -79,14 +79,14 @@ st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkaka
 
 barvy = {
     "Růžová": "#f4a2c3",
-    "Fialová světlá": "#c89fca",
-    "Tmavá fialová": "#613F75",
+    "Světle fialová": "#c89fca",
+    "Tmavě fialová": "#613F75",
     "Modrošedá": "#568ea3",
     "Žlutá": "#ECD444"
 }
 
 # vyber barvy
-vybrana_barva = st.sidebar.radio("Vyber barvu z naší palety!", list(barvy.keys()), horizontal=True)
+vybrana_barva = st.sidebar.radio("**Prohlídni si barvy z naší palety!**", list(barvy.keys()), horizontal=True)
 
 # ziskani kodu
 hex_kod = barvy[vybrana_barva]
