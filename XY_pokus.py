@@ -25,7 +25,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if st.sidebar.button("Vítáme tě!"):
-     st.snow()
+     st.balloons()
 
 
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
