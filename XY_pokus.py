@@ -48,35 +48,42 @@ st.sidebar.markdown("""
 <style>
 .sidebar-button {
     display: block;
-    padding: 8px 12px;
-    margin: 6px 0;
+    padding: 6px 10px;
+    margin: 3px 0;
     background-color: #f4a2c3;
-    color: black;
-    text-decoration: none;
+    color: black !important;
+    text-decoration: none !important;
     border-radius: 8px;
     font-weight: 500;
+    font-size: 14px;
     transition: background-color 0.2s ease;
 }
 .sidebar-button:hover {
     background-color: #c89fca;
 }
+.sidebar-sub {
+    margin-left: 20px;
+    font-size: 13px;
+}
 </style>
 
 <a class="sidebar-button" href="#uvod">Úvod</a>
 <a class="sidebar-button" href="#stanoveni-modeloveho-scenare">1. Stanovení modelového scénáře</a>
-<a class="sidebar-button" href="#modelovy-parecek">– Modelový páreček</a>
-<a class="sidebar-button" href="#modelovy-bytecek">– Modelový byteček</a>
+<a class="sidebar-button sidebar-sub" href="#modelovy-parecek">– Modelový páreček</a>
+<a class="sidebar-button sidebar-sub" href="#modelovy-bytecek">– Modelový byteček</a>
 <a class="sidebar-button" href="#analyticke-otazky">2. Analytické otázky</a>
 <a class="sidebar-button" href="#datova-priprava-a-cisteni-aka-prvni">3. Datová příprava a čištění aka první Hackathon</a>
 <a class="sidebar-button" href="#prvni-analyzy-a-vizualizace">4. První analýzy a vizualizace</a>
 <a class="sidebar-button" href="#samostatna-prace-michaela-kaderova">5. Samostatná práce – Michaela Kaderová</a>
 <a class="sidebar-button" href="#samostatna-prace-eliska-kafkova">6. Samostatná práce – Eliška Kafková</a>
 <a class="sidebar-button" href="#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu">7. Závěrečná analýza a vizualizace</a>
-<a class="sidebar-button" href="#predikce-cen-bytu-v-roce-2030">– Predikce cen bytů v roce 2030</a>
-<a class="sidebar-button" href="#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou">– Scénář 1: Bez mateřské dovolené</a>
-<a class="sidebar-button" href="#scenar-2-s-materskou-dovolenou">– Scénář 2: Vliv mateřské dovolené</a>
+<a class="sidebar-button sidebar-sub" href="#predikce-cen-bytu-v-roce-2030">– Predikce cen bytů v roce 2030</a>
+<a class="sidebar-button sidebar-sub" href="#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou">– Scénář 1: Bez mateřské dovolené</a>
+<a class="sidebar-button sidebar-sub" href="#scenar-2-s-materskou-dovolenou">– Scénář 2: Vliv mateřské dovolené</a>
 <a class="sidebar-button" href="#shrnuti-a-prinos">8. Shrnutí a přínos</a>
 """, unsafe_allow_html=True)
+
+
 
 # pokus o sidebar a kapitoly
 st.sidebar.markdown("## 📚 Kapitoly")
