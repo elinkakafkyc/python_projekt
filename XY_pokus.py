@@ -155,6 +155,17 @@ st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 if st.button("Send balloons!"):
     st.balloons()
 
+if st.button("❄️ Zapni sníh"):
+    st.snow()
+
+# 🧼 Toast notifikace
+if st.button("🔔 Zobraz toast"):
+    st.toast("Tohle je toasťáček! 🥳")
+
+# 🎧 Vtipný zvuk
+if st.button("🔊 Zahraj zvuk"):
+    st.audio("https://www.myinstants.com/media/sounds/that-was-easy.mp3", autoplay=True)
+
 # ÚVOD
 st.header("Úvod")
 st.write(
