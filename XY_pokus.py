@@ -152,22 +152,21 @@ st.title("Metr za milion: Mileniálské dilema")
 st.subheader("*Eliška Kafková  &  Michaela Kaderová*") 
 st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 
-if st.button("Send balloons!"):
+if st.button("Rozluč se s námi!"):
     st.balloons()
 
-if st.button("❄️ Zapni sníh"):
-    st.snow()
+# if st.button("❄️ Zapni sníh"):
+#     st.snow()
 
-# 🧼 Toast notifikace
-if st.button("🔔 Zobraz toast"):
-    st.toast("Tohle je toasťáček! 🥳")
+# if st.button("🔔 Zobraz toast"):
+#     st.toast("Tohle je toasťáček! 🥳")
 
-# 🎧 Vtipný zvuk
-if st.button("🔊 Zahraj zvuk"):
-    st.audio("https://www.myinstants.com/media/sounds/that-was-easy.mp3", autoplay=True)
+# # 🎧 Vtipný zvuk
+# if st.button("🔊 Zahraj zvuk"):
+#     st.audio("https://www.myinstants.com/media/sounds/that-was-easy.mp3", autoplay=True)
 
 
-st.image("https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif", caption="Točím se jak Streamlit komponenty 😄")
+# st.image("https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif", caption="Točím se jak Streamlit komponenty 😄")
 
 
 # ÚVOD
