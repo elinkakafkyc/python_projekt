@@ -166,7 +166,7 @@ if st.button("🔔 Zobraz toast"):
 if st.button("🔊 Zahraj zvuk"):
     st.audio("https://www.myinstants.com/media/sounds/that-was-easy.mp3", autoplay=True)
 
-st.title("🌀 GIF demo")
+
 st.image("https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif", caption="Točím se jak Streamlit komponenty 😄")
 
 
