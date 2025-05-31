@@ -145,13 +145,6 @@ st.sidebar.markdown(f"""
 
 
 
-st.sidebar.header('st.button')
-
-if st.sidebar.button('Say hello'):
-     st.sidebar.write('Why hello there')
-else:
-     st.sidebar.write('Goodbye')
-
 
 # NADPIS A AUTORI
 st.title("Metr za milion: Mileniálské dilema")
