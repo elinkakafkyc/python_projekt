@@ -24,6 +24,9 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+if st.sidebar.button("Vítáme tě!"):
+     st.snow()
+
 
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
@@ -153,8 +156,6 @@ st.subheader("*Eliška Kafková  &  Michaela Kaderová*")
 st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 
 
-if st.sidebar.button("Vítáme tě!"):
-     st.snow()
 
 # if st.button("🔔 Zobraz toast"):
 #     st.toast("Tohle je toasťáček! 🥳")
