@@ -78,11 +78,11 @@ st.sidebar.markdown("[ **🗝️ Streamlit appka!**](https://github.com/elinkaka
 
 
 barvy = {
-    "Růžová (#f4a2c3)": "#f4a2c3",
-    "Fialová světlá (#c89fca)": "#c89fca",
-    "Tmavá fialová (#613F75)": "#613F75",
-    "Modrošedá (#568ea3)": "#568ea3",
-    "Žlutá (#ECD444)": "#ECD444"
+    "Růžová": "#f4a2c3",
+    "Fialová světlá": "#c89fca",
+    "Tmavá fialová": "#613F75",
+    "Modrošedá": "#568ea3",
+    "Žlutá": "#ECD444"
 }
 
 # vyber barvy
@@ -92,8 +92,8 @@ vybrana_barva = st.radio("Vyber barvu", list(barvy.keys()), horizontal=True)
 hex_kod = barvy[vybrana_barva]
 
 # zobrazeni barvy
-st.markdown(f"""
-<div style="width:100px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
+st.sidebar.markdown(f"""
+<div style="width:300px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
 """, unsafe_allow_html=True)
 
 
