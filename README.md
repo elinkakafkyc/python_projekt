@@ -8,4 +8,6 @@
 07 - Práce s průměrnou úrokovou sazbou - nakonec jsme nezohlednily  
 08 - Upravené výpočty pro scénář s mateřskou dovolenou  
 09 - Tabulka úspor se zohledněnou mateřskou  
+  
+XY_pokus - streamlit aplikace blogového článku  
 
