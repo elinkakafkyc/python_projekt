@@ -3,6 +3,7 @@ from streamlit_ace import st_ace
 from PIL import Image
 import json
 
+
 #nazev zalozky a ikonka, uzky layout a otevreny sidebar defaultne
 st.set_page_config(
     page_title="Metr za milion",
@@ -41,8 +42,6 @@ st.markdown("""
 #613F75
 #568ea3 
 #ECD444
-
-
 
 # sidebar kapitoly new
 st.sidebar.markdown("## 📚 Kapitoly", unsafe_allow_html=True)
@@ -144,6 +143,14 @@ st.sidebar.markdown(f"""
 <div style="width:200px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
 """, unsafe_allow_html=True)
 
+
+
+st.sidebar.header('st.button')
+
+if st.sidebar.button('Say hello'):
+     st.sidebar.write('Why hello there')
+else:
+     st.sidebar.write('Goodbye')
 
 
 # NADPIS A AUTORI
