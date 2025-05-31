@@ -86,14 +86,14 @@ barvy = {
 }
 
 # vyber barvy
-vybrana_barva = st.radio("Vyber barvu z naší palety!", list(barvy.keys()), horizontal=True)
+vybrana_barva = st.sidebar.radio("Vyber barvu z naší palety!", list(barvy.keys()), horizontal=True)
 
 # ziskani kodu
 hex_kod = barvy[vybrana_barva]
 
 # zobrazeni barvy
 st.sidebar.markdown(f"""
-<div style="width:300px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
+<div style="width:200px; height:100px; background-color:{hex_kod}; border-radius:10px; border:1px solid #aaa;"></div>
 """, unsafe_allow_html=True)
 
 
