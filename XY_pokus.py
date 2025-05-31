@@ -14,11 +14,11 @@ st.set_page_config(
 
 # nastaveni barvy sidebaru f4dbe5 puvodne 
 base = "light"
-primaryColor = "#fcf0f4"
+primaryColor = "#ffffff"
 st.markdown("""
     <style>
     section[data-testid="stSidebar"] {
-        background-color: #f4dbe5;
+        background-color: #ffffff;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -42,6 +42,9 @@ st.markdown("""
 #568ea3 
 #ECD444
 
+
+
+# sidebar kapitoly new
 st.sidebar.markdown("## 📚 Kapitoly", unsafe_allow_html=True)
 
 st.sidebar.markdown("""
@@ -65,45 +68,48 @@ st.sidebar.markdown("""
     margin-left: 20px;
     font-size: 13px;
 }
+.bullet::before {
+    content: "• ";
+    margin-right: 4px;
+}
 </style>
 
 <a class="sidebar-button" href="#uvod">Úvod</a>
 <a class="sidebar-button" href="#stanoveni-modeloveho-scenare">1. Stanovení modelového scénáře</a>
-<a class="sidebar-button sidebar-sub" href="#modelovy-parecek">– Modelový páreček</a>
-<a class="sidebar-button sidebar-sub" href="#modelovy-bytecek">– Modelový byteček</a>
+<a class="sidebar-button sidebar-sub bullet" href="#modelovy-parecek">Modelový páreček</a>
+<a class="sidebar-button sidebar-sub bullet" href="#modelovy-bytecek">Modelový byteček</a>
 <a class="sidebar-button" href="#analyticke-otazky">2. Analytické otázky</a>
 <a class="sidebar-button" href="#datova-priprava-a-cisteni-aka-prvni">3. Datová příprava a čištění aka první Hackathon</a>
 <a class="sidebar-button" href="#prvni-analyzy-a-vizualizace">4. První analýzy a vizualizace</a>
 <a class="sidebar-button" href="#samostatna-prace-michaela-kaderova">5. Samostatná práce – Michaela Kaderová</a>
 <a class="sidebar-button" href="#samostatna-prace-eliska-kafkova">6. Samostatná práce – Eliška Kafková</a>
 <a class="sidebar-button" href="#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu">7. Závěrečná analýza a vizualizace</a>
-<a class="sidebar-button sidebar-sub" href="#predikce-cen-bytu-v-roce-2030">– Predikce cen bytů v roce 2030</a>
-<a class="sidebar-button sidebar-sub" href="#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou">– Scénář 1: Bez mateřské dovolené</a>
-<a class="sidebar-button sidebar-sub" href="#scenar-2-s-materskou-dovolenou">– Scénář 2: Vliv mateřské dovolené</a>
+<a class="sidebar-button sidebar-sub bullet" href="#predikce-cen-bytu-v-roce-2030">Predikce cen bytů v roce 2030</a>
+<a class="sidebar-button sidebar-sub bullet" href="#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou">Scénář 1: Bez mateřské dovolené</a>
+<a class="sidebar-button sidebar-sub bullet" href="#scenar-2-s-materskou-dovolenou">Scénář 2: Vliv mateřské dovolené</a>
 <a class="sidebar-button" href="#shrnuti-a-prinos">8. Shrnutí a přínos</a>
 """, unsafe_allow_html=True)
 
 
+# # pokus o sidebar a kapitoly
+# st.sidebar.markdown("## 📚 Kapitoly")
+# st.sidebar.markdown("""
 
-# pokus o sidebar a kapitoly
-st.sidebar.markdown("## 📚 Kapitoly")
-st.sidebar.markdown("""
-
-- [Úvod](#uvod)  
-- [1. Stanovení modelového scénáře](#stanoveni-modeloveho-scenare)  
-     - [Modelový páreček](#modelovy-parecek)  
-     - [Modelový byteček](#modelovy-bytecek)  
-- [2. Analytické otázky](#analyticke-otazky)  
-- [3. Datová příprava a čištění aka první Hackathon](#datova-priprava-a-cisteni-aka-prvni)  
-- [4. První analýzy a vizualizace](#prvni-analyzy-a-vizualizace)  
-- [5. Samostatná práce – Michaela Kaderová](#samostatna-prace-michaela-kaderova)  
-- [6. Samostatná práce – Eliška Kafková](#samostatna-prace-eliska-kafkova)  
-- [7. Závěrečná analýza a vizualizace](#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
-     - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
-     - [Scénář 1: Bez mateřské dovolené](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
-     - [Scénář 2: Vliv mateřské dovolené](#scenar-2-s-materskou-dovolenou)  
-- [8. Shrnutí a přínos](#shrnuti-a-prinos)  
-""", unsafe_allow_html=True)
+# - [Úvod](#uvod)  
+# - [1. Stanovení modelového scénáře](#stanoveni-modeloveho-scenare)  
+#      - [Modelový páreček](#modelovy-parecek)  
+#      - [Modelový byteček](#modelovy-bytecek)  
+# - [2. Analytické otázky](#analyticke-otazky)  
+# - [3. Datová příprava a čištění aka první Hackathon](#datova-priprava-a-cisteni-aka-prvni)  
+# - [4. První analýzy a vizualizace](#prvni-analyzy-a-vizualizace)  
+# - [5. Samostatná práce – Michaela Kaderová](#samostatna-prace-michaela-kaderova)  
+# - [6. Samostatná práce – Eliška Kafková](#samostatna-prace-eliska-kafkova)  
+# - [7. Závěrečná analýza a vizualizace](#zaverecna-analyza-a-vizualizace-na-druhem-hackathonu)  
+#      - [Predikce cen bytů v roce 2030](#predikce-cen-bytu-v-roce-2030)  
+#      - [Scénář 1: Bez mateřské dovolené](#scenar-1-bez-materske-dovolene-pouze-s-fenkou-barou)  
+#      - [Scénář 2: Vliv mateřské dovolené](#scenar-2-s-materskou-dovolenou)  
+# - [8. Shrnutí a přínos](#shrnuti-a-prinos)  
+# """, unsafe_allow_html=True)
 
 
 # odkazy na github sidebar
