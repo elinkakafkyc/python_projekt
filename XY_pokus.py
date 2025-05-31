@@ -152,6 +152,9 @@ st.title("Metr za milion: Mileniálské dilema")
 st.subheader("*Eliška Kafková  &  Michaela Kaderová*") 
 st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 
+if st.button("Send balloons!"):
+    st.balloons()
+
 # ÚVOD
 st.header("Úvod")
 st.write(
