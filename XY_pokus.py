@@ -46,7 +46,7 @@ if st.sidebar.button("Vítáme tě!"):
 #568ea3 
 #ECD444
 
-# sidebar kapitoly new
+# sidebar kapitoly neww
 st.sidebar.markdown("## 📚 Kapitoly", unsafe_allow_html=True)
 
 st.sidebar.markdown("""
