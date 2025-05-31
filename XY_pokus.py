@@ -55,7 +55,7 @@ st.sidebar.markdown("""
     display: block;
     padding: 6px 10px;
     margin: 3px 0;
-    background-color: #f4a2c3;
+    background-color: #c89fca;
     color: black !important;
     text-decoration: none !important;
     border-radius: 8px;
@@ -64,7 +64,7 @@ st.sidebar.markdown("""
     transition: background-color 0.2s ease;
 }
 .sidebar-button:hover {
-    background-color: #c89fca;
+    background-color: #f4a2c3;
 }
 .sidebar-sub {
     margin-left: 20px;
@@ -93,7 +93,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 
-# # pokus o sidebar a kapitoly
+# pokus o sidebar a kapitoly
 # st.sidebar.markdown("## 📚 Kapitoly")
 # st.sidebar.markdown("""
 
