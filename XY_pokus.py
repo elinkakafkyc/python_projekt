@@ -90,7 +90,7 @@ vybrana_barva = st.sidebar.radio("###**Prohlídni si barvy z naší palety!**", 
 st.sidebar.markdown("### Celá paleta")
 for barva in barvy.values():
     border = "3px solid black" if barva == barvy else "1px solid #ccc"
-    st.markdown(
+    st.sidebar.markdown(
         f'<div style="display:inline-block; width:50px; height:50px; background-color:{barva}; border:{border}; margin:5px; border-radius:5px;"></div>',
         unsafe_allow_html=True
     )
