@@ -152,8 +152,6 @@ st.title("Metr za milion: Mileniálské dilema")
 st.subheader("*Eliška Kafková  &  Michaela Kaderová*") 
 st.markdown("*Mentoři: **Eliška Valterová  &  Jakub Červinka***")
 
-if st.button("Rozluč se s námi!"):
-    st.balloons()
 
 # if st.button("❄️ Zapni sníh"):
 #     st.snow()
@@ -544,6 +542,10 @@ To považujeme za hlavní přínos našeho projektu.
 
 
 """)
+
+
+if st.button("Rozluč se s námi!"):
+    st.balloons()
 
 st.image("images/materska.png", use_container_width=True)
 st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
