@@ -166,6 +166,8 @@ if st.button("🔔 Zobraz toast"):
 if st.button("🔊 Zahraj zvuk"):
     st.audio("https://www.myinstants.com/media/sounds/that-was-easy.mp3", autoplay=True)
 
+st.success("Díky za účast na této party aplikaci! 🎂")
+
 # ÚVOD
 st.header("Úvod")
 st.write(
