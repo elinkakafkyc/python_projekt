@@ -566,7 +566,7 @@ To považujeme za hlavní přínos našeho projektu.
 st.image("images/materska.png", use_container_width=True)
 st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
 "Teď už potřebují nejen hypotéku, ale i o trochu větší botník.")
-if st.button("<br><br>Albert trvá na balónkové rozlučce!"):
+if st.button("<br><br>""Albert trvá na balónkové rozlučce!"):
     st.balloons()
 
 
