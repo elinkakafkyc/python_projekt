@@ -136,7 +136,7 @@ barvy = {
 }
 
 # vyber barvy
-vybrana_barva = st.sidebar.radio("**Prohlídni si barvy z naší palety!**", list(barvy.keys()), horizontal=True)
+vybrana_barva = st.sidebar.radio("**Prohlédni si barvy z naší palety!**", list(barvy.keys()), horizontal=True)
 
 # ziskani kodu
 hex_kod = barvy[vybrana_barva]
@@ -300,7 +300,7 @@ st_ace(
 
 #datovy model obrazek
 
-st.markdown("""V mezičase jsme postupně tvořily **datový model:**""")  
+st.markdown("""V mezičase jsme pomocí nástroje LucidChart postupně tvořily **datový model:**""")  
 
 st.image("images/model.png", caption='Datový model naší situace', use_container_width=True)
 
@@ -337,8 +337,8 @@ Dále rozdělila data podle pohlaví a omezila je na období let 2016-2024.
 Z těchto údajů následně vypočítala jak mediánové, tak průměrné mzdy pro obě věkové skupiny dohromady. 
 Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praze za posledních několik let.
 - Dále připravila data o inflaci. Data byla čerpána z Českého statistického úřadu – konkrétně se jednalo o průměrnou roční míru inflace ve stejném časovém rozmezí.
-- Všechna tato data následně spojila s hlavním datasetem realit
-- Na závěr vytvořila graf vývoje cen a mezd v Praze v letech 2016-2024
+- Všechna tato data následně spojila s hlavním datasetem realit v Keboole
+- Na závěr v Tableau vytvořila graf vývoje cen a mezd v Praze v letech 2016-2024
   
 Díky tomu jsme mohly odpovědět **na druhou otázku:**  
   
