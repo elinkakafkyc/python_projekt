@@ -314,6 +314,21 @@ st_ace(
     height=300
 )
 
+#sql kodik basic
+st.code("""SELECT
+    "MC_spravne",
+    ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
+FROM "vycistena_tabulka_oprava_2"
+WHERE 
+        "data_price" IS NOT NULL
+    AND "data_price" != ''
+    AND "plocha" IS NOT NULL
+    AND "plocha" != ''
+    AND YEAR = 2024
+GROUP BY "MC_spravne"
+ORDER BY "prumerna_cena_na_m2" DESC;""", language="sql")
+
+
 
 #datovy model obrazek
 
