@@ -194,7 +194,7 @@ st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologi
              Grafické úpravy a finální prezentaci jsme připravovaly v nástrojích **Figma** a **Canva**, pro společný brainstorming a přípravu struktury naší data story pak nástroj **Miro**.
          
 """)
-# schematko z figmy
+# schematko z figmy kvalitnejsi
 st.image("images/schema_kvalita.png", use_container_width=True)
 
 
