@@ -480,7 +480,7 @@ Výsledky jsme zobrazily v mapě, kde byly zvýrazněny čtvrti, ve kterých by 
 """)
 
 
-# scenar 1!
+# scenar 1
 st.subheader(
     """
 ***Scénář 1: Bez mateřské dovolené pouze s fenkou Bárou***
