@@ -402,14 +402,12 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("mzdy_inflace.csv")
 
 model = smf.ols(formula="mzda ~ rok + inflace", data=data).fit()
-
 print(model.summary())
 
 sns.regplot(data=data, x="rok", y="mzda", line_kws={"color": "red"}, ci=None)
 plt.title("Vývoj mezd v čase s lineární regresí")
 plt.xlabel("Rok")
 plt.ylabel("Mzda (Kč)")
-plt.grid()
 plt.show()
 
 future = pd.DataFrame({
@@ -417,7 +415,6 @@ future = pd.DataFrame({
     "inflace": [2.5, 2.0, 2.0, 2.0, 2.0, 2.0]  
         # inflace na kterou cili CNB, v idealnim svete 
 })
-
 future["predikovana_mzda"] = model.predict(future)
 print(future)
 
@@ -427,7 +424,6 @@ plt.xlabel("Rok")
 plt.ylabel("Mzda (Kč)")
 plt.title("Predikce mzdy Evžena do roku 2030")
 plt.legend()
-plt.grid()
 plt.show()
 """, language="python")
 
