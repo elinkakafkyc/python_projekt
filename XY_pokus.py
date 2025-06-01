@@ -78,7 +78,7 @@ st.sidebar.markdown("""
 </style>
 
 <a class="sidebar-button" href="#uvod">Úvod</a>
-<a class="sidebar-button sidebar-sub bullet" href="#modelovy-parecek">Technologie a postupy</a>
+<a class="sidebar-button sidebar-sub bullet" href="#nastroje-a-postupy">Nástroje a postupy</a>
 <a class="sidebar-button" href="#stanoveni-modeloveho-scenare">1. Stanovení modelového scénáře</a>
 <a class="sidebar-button sidebar-sub bullet" href="#modelovy-parecek">Modelový páreček</a>
 <a class="sidebar-button sidebar-sub bullet" href="#modelovy-bytecek">Modelový byteček</a>
@@ -184,12 +184,12 @@ st.image("images/uvod.png", use_container_width=True)
 
 st.subheader("🛠️ Nástroje a postupy")
 st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologií, se kterými jsme se během Digitální akademie (i mimo ni) seznámily. 
-         Data o realitních inzerátech jsme získaly díky Apify a zpracovávaly je v Keboole pomocí SQL (Snowflake).
-           Datový model jsme vytvořily pomocí nástroje Lucidchart. Pro analytickou a statistickou část jsme pracovaly v Pythonu (hlavně za použití Jupyter Notebooků) s využitím knihoven jako pandas, seaborn, scipy, numpy, statsmodels či matplotlib. 
-           Výstupy jsme vizualizovaly v Tableau, kde jsme si vyzkoušely i tvorbu predikce (Tableau Forecast) vývoje cen.
-             Ke generování obrázků a ikonek ve zvolené paletě barev, kterou jsme si navrhly pomocí nástroje Coolors, jsme využily ChatGPT. Pro náš článek jsme následně vytvořily tuto aplikaci za pomocí knihovny streamlit a její publikaci provedly přes Streamlit Cloud. 
-             Kódy i aplikaci jsme sdíleli skrze GitHub, na nějž naleznete odkazy na této stránce pod výpisem kapitol. 
-             Grafické úpravy a finální prezentaci jsme připravovaly v nástrojích Figma a Canva, pro společný brainstorming a přípravu struktury naší data story pak nástroj Miro.
+         Data o realitních inzerátech jsme získaly díky **Apify** a zpracovávaly je v **Keboole** pomocí **SQL (Snowflake)**.
+           Datový model jsme vytvořily pomocí nástroje **Lucidchart**. Pro analytickou a statistickou část jsme pracovaly v **Pythonu** (hlavně za použití Jupyter Notebooků) s využitím knihoven jako pandas, seaborn, scipy, numpy, statsmodels či matplotlib. 
+           Výstupy jsme vizualizovaly v **Tableau**, kde jsme si vyzkoušely i tvorbu predikce (Tableau Forecast) vývoje cen.
+             Ke generování obrázků a ikonek ve zvolené paletě barev, kterou jsme si navrhly pomocí nástroje **Coolors** jsme využily **ChatGPT**. Pro náš článek jsme následně vytvořily tuto aplikaci za pomocí knihovny **streamlit** a její publikaci provedly přes **Streamlit Cloud**. 
+             Kódy i aplikaci jsme sdíleli skrze **GitHub**, na nějž naleznete odkazy na této stránce pod výpisem kapitol. 
+             Grafické úpravy a finální prezentaci jsme připravovaly v nástrojích **Figma** a **Canva**, pro společný brainstorming a přípravu struktury naší data story pak nástroj **Miro**.
          
 """)
 
