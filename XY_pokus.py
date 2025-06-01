@@ -340,9 +340,9 @@ st.write("*Míša se zaměřila na vývoj **cen nemovitostí a průměrných mez
 st.markdown(
 """
 - Nejprve získala data o mzdách z ISPV. 
-Zaměřila se pouze na data pro hlavní město Prahu a vybrala věkové kategorie 20-29 a 30-39 let. 
+Zaměřila se pouze na data pro hlavní město **Prahu** a vybrala věkové kategorie **20-29 a 30-39 let.** 
 Dále rozdělila data podle pohlaví a omezila je na období let 2016-2024.
-Z těchto údajů následně vypočítala jak mediánové, tak průměrné mzdy pro obě věkové skupiny dohromady. 
+Z těchto údajů následně vypočítala jak **mediánové, tak průměrné mzdy** pro obě věkové skupiny dohromady. 
 Tím vznikl souhrnný přehled o vývoji mzdové úrovně mladé generace v Praze za posledních několik let.
 - Dále připravila data o inflaci. Data byla čerpána z Českého statistického úřadu – konkrétně se jednalo o průměrnou roční míru inflace ve stejném časovém rozmezí.
 - Všechna tato data následně spojila s hlavním datasetem realit v Keboole
@@ -370,23 +370,23 @@ st.header("💁‍♀️ Samostatná práce – Eliška Kafková")
 st.write("*Eliška se zaměřila na **predikce mezd, spoření a měsíční výdaje párečku.***")
 st.markdown(
 """
-- Nejdřív připravila predikce pro mzdy Evžena i Cecilky do roku 2030. Pro predikci mezd použila lineární regresi, protože:  
-    - předchozí vývoj ukazuje poměrně stabilní růst
+- Nejdřív připravila **predikce pro mzdy Evžena i Cecilky** do roku 2030. Pro predikci mezd použila **lineární regresi**, protože:  
+    - předchozí vývoj ukazuje poměrně stabilní růst  
     - i když jsme měly jen omezené množství vstupních dat, lineární model se zdál jako nejrozumnější -
-      nemovitosti stejně pořád rostou, tak proč to komplikovat
+      nemovitosti stejně pořád rostou, tak proč to komplikovat  
     - ideální by samozřejmě bylo dat víc, ale člověk si musí umět poradit i s málem 
     (a taky tu byla touha si zkusit něco víc než print("Hello world!"))  
-- Potom následovala příprava měsíčních výdajů párečku:
+- Potom následovala příprava **měsíčních výdajů párečku:**  
     - původně byla vize vycházet z dat ČSÚ, ale ukázalo se, že dostupná data jsou jen průměry za celou ČR, 
-    a pro Prahu naprosto nedostačující - za ty částky by člověk v hlavním městě sotva přežil.
-    - nakonec tedy vznikl hrubý odhad na základě výdajů členů našeho týmu, abychom se dostaly k reálnějším číslům
+    a pro Prahu naprosto nedostačující - za ty částky by člověk v hlavním městě sotva přežil.  
+    - nakonec tedy vznikl hrubý odhad na základě výdajů členů našeho týmu, abychom se dostaly k reálnějším číslům  
 - Dále připravila výdaje, které zde rostou poměrově společně se mzdou, aby to reflektovalo vývoj životních nákladů, 
-a z toho vychází výpočet ukazující, kolik by mohli naspořit do roku 2030
-- Ekvivalentně byla přepočítána alternativní varianta s mateřskou dovolenou, aby to odpovídalo reálnějšímu průběhu
+a z toho vychází výpočet ukazující, kolik by mohli naspořit do roku 2030  
+- Ekvivalentně byla přepočítána alternativní varianta s mateřskou dovolenou, aby to odpovídalo reálnějšímu průběhu  
     - uvažujeme klasicky 70% příjem po dobu cca půl roku,
-      následně rozložení jednorázového příspěvku 350k v nejrychlejším možném čase, do věku dítěte 3 let pak ve zbytku času nulový příjem
-- A jako třešničku na dortu připravila šablonu pro tuhle streamlit appku, ve které si náš článek právě teď pročítáte 😎
-    
+      následně rozložení jednorázového příspěvku 350k v nejrychlejším možném čase, do věku dítěte 3 let pak ve zbytku času nulový příjem  
+- A jako třešničku na dortu připravila šablonu pro tuhle **streamlit appku**, ve které si náš článek právě teď pročítáte 😎  
+      
 *Podrobný postup spolu s Python kódy jsou dostupné na Githubu:* 
         """
     )
