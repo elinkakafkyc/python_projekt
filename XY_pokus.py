@@ -395,7 +395,7 @@ a z toho vychází výpočet ukazující, kolik by mohli naspořit do roku 2030
 st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 st.write()
 
-#dopsat nazev kodu
+
 
 st.title("Predikce mzdy Evžena do roku 2030")
 #python kodik basics
