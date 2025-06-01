@@ -368,15 +368,23 @@ st.divider()  # rozdelovaci
 st.header("💁‍♀️ Samostatná práce – Eliška Kafková")
 st.write("*Eliška se zaměřila na **predikce mezd, spoření a měsíční výdaje párečku.***")
 st.markdown(
-"""
-- Vzhledem k předchozímu vývoji mezd byla zvolena lineární regrese 
-(ano, víme že hodnot by bylo potřeba více pro lepší přesnost, ale člověk si zkrátka musí umět poradit)  
-    - Predikce mzdy Evžena i Cecilky do roku 2030  
-    - Odhad měsíčních výdajů poměrově rostoucích společně se mzdou  
-    - Výpočet naspořených peněz  
-    - Totéž pro druhou variantu s mateřskou dovolenou  
-- Zároveň předpřipravila šablonu pro tuhle streamlit appku  
- 
+"""¨
+- Nejdřív připravila predikce pro mzdy Evžena i Cecilky do roku 2030. Pro predikci mezd použila lineární regresi, protože:  
+    - předchozí vývoj ukazuje poměrně stabilní růst
+    - i když jsme měly jen omezené množství vstupních dat, lineární model se zdál jako nejrozumnější -
+      nemovitosti stejně pořád rostou, tak proč to komplikovat
+    - ideální by samozřejmě bylo dat víc, ale člověk si musí umět poradit i s málem 
+    (a taky tu byla touha si zkusit něco víc než print("Hello world!"))  
+- Potom následovala příprava měsíčních výdajů párečku:
+    - původně byla vize vycházet z dat ČSÚ, ale ukázalo se, že dostupná data jsou jen průměry za celou ČR, 
+    a pro Prahu naprosto nedostačující - za ty částky by člověk v hlavním městě sotva přežil.
+    - nakonec tedy vznikl hrubý odhad na základě výdajů členů našeho týmu, abychom se dostaly k reálnějším číslům
+- Dále připravila výdaje, které zde rostou poměrově společně se mzdou, aby to reflektovalo vývoj životních nákladů, 
+a z toho vychází výpočet ukazující, kolik by mohli naspořit do roku 2030
+- Ekvivalentně byla přepočítána alternativní varianta s mateřskou dovolenou, aby to odpovídalo reálnějšímu průběhu
+    - uvažujeme klasicky 70% příjem po dobu cca půl roku,
+      následně rozložení jednorázového příspěvku 350k v nejrychlejším možném čase, do věku dítěte 3 let pak ve zbytku času nulový příjem
+- A jako třešničku na dortu připravila šablonu pro tuhle streamlit appku, ve které si náš článek právě teď pročítáte 😎
     
 *Podrobný postup spolu s Python kódy jsou dostupné na Githubu:* 
         """
@@ -386,9 +394,10 @@ st.markdown(
 # odkaz na GITHUB Eliška
 st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_projekt.git)")
 st.write()
-#dopsat nazev kodu
-#vlozeni kodu z ipynb
 
+#dopsat nazev kodu
+
+st.title("Predikce mzdy Evžena do roku 2030")
 #python kodik basics
 st.code("""import pandas as pd
 import seaborn as sns
