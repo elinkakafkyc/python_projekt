@@ -397,7 +397,7 @@ st.write()
 
 
 
-st.title("Predikce mzdy Evžena do roku 2030")
+st.caption("Predikce mzdy Evžena do roku 2030")
 #python kodik basics
 st.code("""import pandas as pd
 import seaborn as sns
