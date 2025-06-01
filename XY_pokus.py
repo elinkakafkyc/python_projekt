@@ -355,7 +355,7 @@ st.write()
 st.image("images/mzdy_ceny.png", caption='Růst průměrné ceny za m² vs. růst mediánové mzdy', use_container_width=True)
 
 
-st.divider()  # rozdelovaci cara
+st.divider()  # rozdelovaci
 
 # sekce 6 - samostatna prace - Eliska kafkova
 st.header("💁‍♀️ Samostatná práce – Eliška Kafková")
