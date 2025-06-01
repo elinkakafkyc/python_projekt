@@ -427,22 +427,8 @@ plt.legend()
 plt.show()
 """, language="python")
 
-with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
-    nb = json.load(evzen)
 
-    # Posbírej všechny kódové buňky
-all_code = []
-for cell in nb["cells"]:
-    if cell["cell_type"] == "code":
-        code = "".join(cell["source"])
-        all_code.append(code)
-
-    # Sloučení všeho do jednoho stringu
-full_code = "\n\n \n\n".join(all_code)
-
-    # Zobrazení jako jedna scrollovatelná, barevná buňka
-st_ace(value=full_code, language="python", theme="pastel_on_dark", readonly=True, height=300, key="readonly_code")
-    # Popisek kodu
+    # Popisek kodu pridat
 
 
 
