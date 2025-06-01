@@ -592,7 +592,7 @@ Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stov
             připravily jsme **scénáře** a výsledky jsme zpracovaly tak, aby byly snadno uchopitelné a prezentovatelné.
             Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí - protože v reálné praxi často podobná volnost chybí.  
   
-Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro naši generaci**, ke které samy (víceméně už) patříme. 
+Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro generaci mileniálů a gen Z**, ke které samy (víceméně už) patříme. 
             Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat a proč má smysl začít o těchto věcech přemýšlet dřív,
              než se to začne týkat přímo nás.  
   
