@@ -567,20 +567,34 @@ st.divider()  # rozdelovnaci cara
 
 st.header("🌎 Shrnutí a přínos")
 st.markdown("""
-Obě simulace ukázaly, že pokud bude pár schopen spořit, 
-vyhnout se dlouhodobé pracovní neschopnosti a udrží si stabilní příjem, **je pořízení bytu v určitých čtvrtích Prahy reálné.**  
+
+Obě simulace ukázaly, že pokud je pár schopen pravidelně spořit, vyhne se dlouhodobé pracovní neschopnosti a udrží si stabilní příjem, 
+            je pořízení bytu v některých čtvrtích Prahy v zásadě reálné.  
+          
+Situace se však proměňuje v okamžiku, kdy do domácnosti přicházejí děti. 
+            Zásadně se mění nejen struktura příjmů (například vlivem rodičovské dovolené), ale také výdajová stránka —
+             kvůli zvýšeným nárokům na prostor, péči nebo potřebu větší finanční rezervy.  
+          
+Za klíčové faktory v celém rozhodovacím procesu považujeme:  
   
-*Zásadní roli hraje:*
-- **výše naspořených prostředků,**  
-- **schopnost dlouhodobě spořit a udržet výdajový režim na uzdě,**
-- **úroková sazba a ochota banky úvěr poskytnout.**  
-              
-Za zvážení by samozřejmě stály i další scénáře – například zůstat v nájmu při potřebě většího bytu, nebo nákup menšího bytu jako investičního. 
-Tyto varianty však vzhledem k časovým možnostem přenecháváme budoucím generacím datařek.  
-              
-Z hlediska analytické práce jsme v této fázi spojily veškeré připravené datové podklady, 
-využily jsme prediktivní i vizualizační nástroje a převedly jsme čísla do praktického scénáře reálného života.
-To považujeme za hlavní přínos našeho projektu.
+- výši naspořených prostředků,  
+- schopnost dlouhodobě spořit a udržet výdaje pod kontrolou,  
+- úrokové sazby a ochotu bank úvěr poskytnout.  
+  
+Zároveň je dobré zvážit i alternativní scénáře: 
+            například možnost zůstat v nájmu při rozrůstající se domácnosti, a zároveň pořízení menšího bytu jako investice. 
+            Tyto varianty jsme s ohledem na časové možnosti nechaly otevřené — třeba pro další pokračování nebo budoucí generaci datařek.  
+  
+Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stovkami SQL dotazů**, ale spíše ukázat a vyzkoušet si **kombinaci různých přístupů a nástrojů**,
+             které dohromady dávají smysluplný výstup. Pracovaly jsme s **prediktivními modely (například lineární regrese)**, 
+            připravily jsme **scénáře** a výsledky jsme zpracovaly tak, aby byly snadno uchopitelné.
+            Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí – protože v reálné praxi často podobná volnost chybí.  
+  
+Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro naši generaci**, ke které samy (víceméně už) patříme. 
+            Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat — a proč má smysl začít o těchto věcech přemýšlet dřív,
+             než se to začne týkat přímo nás.  
+  
+Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové — za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme!
 
 
 """)
