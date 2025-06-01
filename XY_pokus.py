@@ -24,9 +24,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# balonky here!
-if st.sidebar.button("Vítáme tě!"):
-     st.balloons()
 
 # pomocne poznamky 
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
@@ -198,7 +195,7 @@ st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologi
 st.image("images/schema_kvalita.png", use_container_width=True)
 
 
-st.divider() # rozdelovaci cara
+st.divider() # rozdelovaci caraaa
 
 # Sekce 1 - modelový páreček a byteček
 st.header("Stanovení modelového scénáře")
@@ -284,7 +281,7 @@ st.markdown(
 st.markdown("[**📌 Přesně tady!**](https://github.com/MichaelaKad/sql_projekt.git)")
 st.write()  
 
-if st.button("❄️ SQL šílenství"):
+if st.button("❄️ Cecilka říkala, že Snowflake je romantika. Tak tady to máš."):
     st.snow()
 
 st.markdown("""Z vyčištěných dat jsme následně mohly začít tvořit první SQL dotazy – 
@@ -565,12 +562,13 @@ To považujeme za hlavní přínos našeho projektu.
 """)
 
 
-if st.button("Rozluč se s námi!"):
-    st.balloons()
 
 st.image("images/materska.png", use_container_width=True)
 st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
 "Teď už potřebují nejen hypotéku, ale i o trochu větší botník.")
+if st.button("<br><br>Albert trvá na balónkové rozlučce!"):
+    st.balloons()
+
 
 
 
