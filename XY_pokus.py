@@ -267,7 +267,7 @@ st.markdown(
   
 1. Vybraly jsme relevantní sloupce  
 2. Data omezily jen na **Prahu**  
-3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ a mentorky Elišky)  
+3. Opravily jsme nesoulad mezi názvy městských částí a GPS souřadnicemi (pomocí číselníku z ČSÚ)  
 4. Vyfiltrovaly jsme pouze byty **2+kk a 2+1** na prodej a odstranily zbývající irelevantní informace  
 5. Vytvořily jsme čitelný formát datumu a také sloupce rok, měsíc, kvartál  
 6. Došlo i na opravu rozbitého sloupce s užitnou plochou – napojily jsme správná data z původní tabulky  
@@ -552,9 +552,10 @@ st.markdown(
 - **Limitující opět nebyl potřebný základ pro žádost o hypotéku, 
 ale její měsíční splátka.**  
 - **V této situaci by jim však postupem času byt 2+kk nebo 2+1 nestačil,
- a navíc by jim rostly měsíční výdaje, které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
+ a navíc by jim zřejmě ještě více rostly měsíční výdaje, které zde zatím nebyly zohledněné** (výdaje se zvyšovaly pouze poměrem se mzdou).
   
-🟣  *Opět jsme **růžově** zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt.*
+🟣  *Opět jsme **růžově** zobrazily dostupné městské části v mapě – kde se v roce 2030 očekává, že za tuto částku půjde koupit příslušný byt. 
+V tomto scénáři se samozřejmě počet dostupných částí snížil.*
 
 
 """
