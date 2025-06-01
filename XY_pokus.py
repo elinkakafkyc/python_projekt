@@ -314,7 +314,7 @@ st_ace(
     height=300
 )
 
-#sql kodik basic
+#sql kodik basics
 st.code("""SELECT
     "MC_spravne",
     ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
