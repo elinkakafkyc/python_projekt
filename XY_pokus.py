@@ -195,6 +195,9 @@ st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologi
          
 """)
 
+st.image("images/schema.png", use_container_width=True)
+
+
 st.divider() # rozdelovaci cara
 
 # Sekce 1 - modelový páreček a byteček
