@@ -195,7 +195,7 @@ st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologi
          
 """)
 # schematko z figmy
-st.image("images/schema.png", use_container_width=True)
+st.image("images/schema_kvalita.png", use_container_width=True)
 
 
 st.divider() # rozdelovaci cara
