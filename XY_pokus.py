@@ -583,7 +583,7 @@ Za klíčové faktory v celém rozhodovacím procesu považujeme:
 - úrokové sazby a ochotu bank úvěr poskytnout.  
   
 Zároveň je dobré zvážit i alternativní scénáře: 
-            například možnost zůstat v nájmu při rozrůstající se domácnosti, a zároveň pořízení menšího bytu jako investice. 
+            například možnost zůstat v nájmu při rozrůstající se domácnosti, a přitom pořízení menšího bytu jako investice. 
             Tyto varianty jsme s ohledem na časové možnosti nechaly otevřené — třeba pro další pokračování nebo budoucí generaci datařek.  
   
 Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stovkami SQL dotazů**, ale spíše ukázat a vyzkoušet si **kombinaci různých přístupů a nástrojů**,
@@ -592,10 +592,10 @@ Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stov
             Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí – protože v reálné praxi často podobná volnost chybí.  
   
 Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro naši generaci**, ke které samy (víceméně už) patříme. 
-            Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat — a proč má smysl začít o těchto věcech přemýšlet dřív,
+            Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat a proč má smysl začít o těchto věcech přemýšlet dřív,
              než se to začne týkat přímo nás.  
   
-Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové — za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme!
+Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové, za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme!
 
 """)
 
