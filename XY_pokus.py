@@ -573,10 +573,10 @@ Obě simulace ukázaly, že pokud je pár schopen pravidelně spořit, vyhne se 
             je pořízení bytu v některých čtvrtích Prahy v zásadě reálné.  
           
 Situace se však proměňuje v okamžiku, kdy do domácnosti přicházejí děti. 
-            Zásadně se mění nejen struktura příjmů (například vlivem rodičovské dovolené), ale také výdajová stránka —
+            Zásadně se mění nejen struktura příjmů (například vlivem rodičovské dovolené), ale také výdajová stránka -
              kvůli zvýšeným nárokům na prostor, péči nebo potřebu větší finanční rezervy.  
           
-Za klíčové faktory v celém rozhodovacím procesu považujeme:  
+*Za klíčové faktory v celém rozhodovacím procesu považujeme:*  
   
 - výši naspořených prostředků,  
 - schopnost dlouhodobě spořit a udržet výdaje pod kontrolou,  
@@ -584,12 +584,12 @@ Za klíčové faktory v celém rozhodovacím procesu považujeme:
   
 Zároveň je dobré zvážit i alternativní scénáře: 
             například možnost zůstat v nájmu při rozrůstající se domácnosti, a přitom pořízení menšího bytu jako investice. 
-            Tyto varianty jsme s ohledem na časové možnosti nechaly otevřené — třeba pro další pokračování nebo budoucí generaci datařek.  
+            Tyto varianty jsme s ohledem na časové možnosti nechaly otevřené - třeba pro další pokračování nebo budoucí generaci datařek.  
   
 Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stovkami SQL dotazů**, ale spíše ukázat a vyzkoušet si **kombinaci různých přístupů a nástrojů**,
              které dohromady dávají smysluplný výstup. Pracovaly jsme s **prediktivními modely (například lineární regrese)**, 
             připravily jsme **scénáře** a výsledky jsme zpracovaly tak, aby byly snadno uchopitelné.
-            Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí – protože v reálné praxi často podobná volnost chybí.  
+            Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí - protože v reálné praxi často podobná volnost chybí.  
   
 Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro naši generaci**, ke které samy (víceméně už) patříme. 
             Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat a proč má smysl začít o těchto věcech přemýšlet dřív,
