@@ -24,10 +24,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# balonky here!
 if st.sidebar.button("Vítáme tě!"):
      st.balloons()
 
-
+# pomocne poznamky 
 # "/Users/eliskakafkova/Library/Mobile Documents/com~apple~CloudDocs/Datová analýza/04_Python/projekt/XY_pokus.py"
 # streamlit run XY_pokus.py
 # `KODY`
@@ -40,11 +41,11 @@ if st.sidebar.button("Vítáme tě!"):
 # barevne boxy - st.success(), st.warning(), st.error(), st.info()
 #editor kodu themes: monokai, github, tomorrow night, pastel_on_dark, dracula, merbivore_soft,solarized_dark,twilight
 # nase barvena paletka:
-#f4a2c3
-#c89fca
-#613F75
-#568ea3 
-#ECD444
+#f4a2c3 ruzova
+#c89fca sv fialova
+#613F75 tm fial
+#568ea3 modra
+#ECD444 zluta
 
 # sidebar kapitoly neww
 st.sidebar.markdown("## 📚 Kapitoly", unsafe_allow_html=True)
@@ -77,6 +78,7 @@ st.sidebar.markdown("""
 </style>
 
 <a class="sidebar-button" href="#uvod">Úvod</a>
+<a class="sidebar-button sidebar-sub bullet" href="#modelovy-parecek">Technologie a postupy</a>
 <a class="sidebar-button" href="#stanoveni-modeloveho-scenare">1. Stanovení modelového scénáře</a>
 <a class="sidebar-button sidebar-sub bullet" href="#modelovy-parecek">Modelový páreček</a>
 <a class="sidebar-button sidebar-sub bullet" href="#modelovy-bytecek">Modelový byteček</a>
@@ -93,7 +95,7 @@ st.sidebar.markdown("""
 """, unsafe_allow_html=True)
 
 
-# pokus o sidebar a kapitoly
+# pokus o sidebar a kapitoly puvodni
 # st.sidebar.markdown("## 📚 Kapitoly")
 # st.sidebar.markdown("""
 
@@ -124,8 +126,7 @@ st.sidebar.markdown("[ **🐼 Python kódy 🐍**](https://github.com/elinkakafk
 
 st.sidebar.markdown("[ **🗝️ Streamlit appka**](https://github.com/elinkakafkyc/python_projekt/blob/main/XY_pokus.py)")
 
-#barevna paleta
-
+#barevna paleta interaktivni    
 
 barvy = {
     "Růžová": "#f4a2c3",
@@ -180,6 +181,17 @@ st.write(
 )
 #obrazek uvod
 st.image("images/uvod.png", use_container_width=True)
+
+st.subheader("🛠️ Nástroje a postupy")
+st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologií, se kterými jsme se během Digitální akademie (i mimo ni) seznámily. 
+         Data o realitních inzerátech jsme získaly díky Apify a zpracovávaly je v Keboole pomocí SQL (Snowflake).
+           Datový model jsme vytvořily pomocí nástroje Lucidchart. Pro analytickou a statistickou část jsme pracovaly v Pythonu (hlavně za použití Jupyter Notebooků) s využitím knihoven jako pandas, seaborn, scipy, numpy, statsmodels či matplotlib. 
+           Výstupy jsme vizualizovaly v Tableau, kde jsme si vyzkoušely i tvorbu predikce (Tableau Forecast) vývoje cen.
+             Ke generování obrázků a ikonek ve zvolené paletě barev, kterou jsme si navrhly pomocí nástroje Coolors, jsme využily ChatGPT. Pro náš článek jsme následně vytvořily tuto aplikaci za pomocí knihovny streamlit a její publikaci provedly přes Streamlit Cloud. 
+             Kódy i aplikaci jsme sdíleli skrze GitHub, na nějž naleznete odkazy na této stránce pod výpisem kapitol. 
+             Grafické úpravy a finální prezentaci jsme připravovaly v nástrojích Figma a Canva, pro společný brainstorming a přípravu struktury naší data story pak nástroj Miro.
+         
+""")
 
 st.divider() # rozdelovaci cara
 
