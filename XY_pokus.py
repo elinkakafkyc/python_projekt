@@ -564,7 +564,7 @@ V tomto scénáři se samozřejmě počet dostupných částí snížil.*
 st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Evžen s Cecilkou dosáhnou na pořízení 2+kk nebo 2+1 po mateřské.', use_container_width=True)
 
 
-st.divider()  # rozdelovnaci cara
+st.divider()  # rozdelovaci cara
 
 # zaver
 
