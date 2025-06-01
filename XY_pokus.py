@@ -565,6 +565,8 @@ st.image("images/mapa_materska.png", caption='Vyznačené části Prahy, kde Ev�
 
 st.divider()  # rozdelovnaci cara
 
+# zaver
+
 st.header("🌎 Shrnutí a přínos")
 st.markdown("""
 Obě simulace ukázaly, že pokud je pár schopen pravidelně spořit, vyhne se dlouhodobé pracovní neschopnosti a udrží si stabilní příjem, 
