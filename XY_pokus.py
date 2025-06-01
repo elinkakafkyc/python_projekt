@@ -595,7 +595,7 @@ Věříme, že náš projekt může sloužit jako **užitečný a realistický n
             Pomáhá utvořit si konkrétnější představu o tom, co nás na cestě za vlastním bydlením může čekat a proč má smysl začít o těchto věcech přemýšlet dřív,
              než se to začne týkat přímo nás.  
   
-Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové, za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme!
+Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové, za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme! ❤️
 
 """)
 
