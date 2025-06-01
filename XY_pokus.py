@@ -290,6 +290,7 @@ st.markdown("""Z vyčištěných dat jsme následně mohly začít tvořit prvn�
   
 
 #sql kodik basics
+st.caption("Výpočet průměrné ceny za m² podle jednotlivých městských částí Prahy")
 st.code("""SELECT
     "MC_spravne",
     ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
