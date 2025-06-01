@@ -288,31 +288,6 @@ st.markdown("""Z vyčištěných dat jsme následně mohly začít tvořit prvn�
             například pro výpočet průměrné ceny za m² podle jednotlivých městských částí, 
             což bude klíčový podklad pro zodpovězení naší první otázky.""")  
   
-# SQL kodik
-
-code = '''
-SELECT
-    "MC_spravne",
-    ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
-FROM "vycistena_tabulka_oprava_2"
-WHERE 
-        "data_price" IS NOT NULL
-    AND "data_price" != ''
-    AND "plocha" IS NOT NULL
-    AND "plocha" != ''
-    AND YEAR = 2024
-GROUP BY "MC_spravne"
-ORDER BY "prumerna_cena_na_m2" DESC;
-
-'''
-
-st_ace(
-    value=code,
-    language="sql",
-    theme="pastel_on_dark",
-    readonly=True,
-    height=300
-)
 
 #sql kodik basics
 st.code("""SELECT
@@ -413,6 +388,48 @@ st.markdown("[**📌 Přesně tady!**](https://github.com/elinkakafkyc/python_pr
 st.write()
 #dopsat nazev kodu
 #vlozeni kodu z ipynb
+
+#python kodik basics
+st.code("""import pandas as pd
+import seaborn as sns
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import statsmodels.tools as tools
+import matplotlib.pyplot as plt
+
+data = pd.read_csv("mzdy_inflace.csv")
+
+model = smf.ols(formula="mzda ~ rok + inflace", data=data).fit()
+
+print(model.summary())
+
+sns.regplot(data=data, x="rok", y="mzda", line_kws={"color": "red"}, ci=None)
+plt.title("Vývoj mezd v čase s lineární regresí")
+plt.xlabel("Rok")
+plt.ylabel("Mzda (Kč)")
+plt.grid()
+plt.show()
+
+future = pd.DataFrame({
+    "rok": [2025, 2026, 2027, 2028, 2029, 2030],
+    "inflace": [2.5, 2.0, 2.0, 2.0, 2.0, 2.0]  
+        # inflace na kterou cili CNB, v idealnim svete 
+})
+
+future["predikovana_mzda"] = model.predict(future)
+print(future)
+
+plt.plot(data["rok"], data["mzda"], marker='o', label="Skutečná mzda")
+plt.plot(future["rok"], future["predikovana_mzda"], marker='x', linestyle='--', label="Predikce do 2030")
+plt.xlabel("Rok")
+plt.ylabel("Mzda (Kč)")
+plt.title("Predikce mzdy Evžena do roku 2030")
+plt.legend()
+plt.grid()
+plt.show()
+""", language="python")
 
 with open("01_predikce_mzdy_evzen.ipynb", "r", encoding="utf-8") as evzen:
     nb = json.load(evzen)
