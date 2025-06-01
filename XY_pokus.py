@@ -329,7 +329,7 @@ GROUP BY "MC_spravne"
 ORDER BY "prumerna_cena_na_m2" DESC;""", language="sql")
 
 #sql kodik varianta
-code = '''
+sql_code = """
 SELECT
     "MC_spravne",
     ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
@@ -342,22 +342,21 @@ WHERE
     AND YEAR = 2024
 GROUP BY "MC_spravne"
 ORDER BY "prumerna_cena_na_m2" DESC;
-'''
+"""
 
 st.markdown(f"""
 <div style="
-    background-color: #f8f8f8;  /* světlé pozadí */
-    color: #333;                /* tmavý text */
-    padding: 12px;
+    background-color: #f4e9f9;
+    color: #222;
+    padding: 12px 16px;
     border-radius: 8px;
     font-family: monospace;
     font-size: 14px;
-    line-height: 1.5;
-    overflow-x: auto;
     white-space: pre;
-    border: 1px solid #ccc;
+    overflow-x: auto;
+    border: 1px solid #ddd;
 ">
-{code}
+{sql_code}
 </div>
 """, unsafe_allow_html=True)
 
