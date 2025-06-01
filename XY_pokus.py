@@ -368,7 +368,7 @@ st.divider()  # rozdelovaci
 st.header("💁‍♀️ Samostatná práce – Eliška Kafková")
 st.write("*Eliška se zaměřila na **predikce mezd, spoření a měsíční výdaje párečku.***")
 st.markdown(
-"""¨
+"""
 - Nejdřív připravila predikce pro mzdy Evžena i Cecilky do roku 2030. Pro predikci mezd použila lineární regresi, protože:  
     - předchozí vývoj ukazuje poměrně stabilní růst
     - i když jsme měly jen omezené množství vstupních dat, lineární model se zdál jako nejrozumnější -
