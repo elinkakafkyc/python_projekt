@@ -328,39 +328,6 @@ WHERE
 GROUP BY "MC_spravne"
 ORDER BY "prumerna_cena_na_m2" DESC;""", language="sql")
 
-#sql kodik varianta
-sql_code = """
-SELECT
-    "MC_spravne",
-    ROUND(AVG("data_price"/"plocha")) AS "prumerna_cena_na_m2"
-FROM "vycistena_tabulka_oprava_2"
-WHERE
-    "data_price" IS NOT NULL
-    AND "data_price" != ''
-    AND "plocha" IS NOT NULL
-    AND "plocha" != ''
-    AND YEAR = 2024
-GROUP BY "MC_spravne"
-ORDER BY "prumerna_cena_na_m2" DESC;
-"""
-
-st.markdown(f"""
-<div style="
-    background-color: #f4e9f9;
-    color: #222;
-    padding: 12px 16px;
-    border-radius: 8px;
-    font-family: monospace;
-    font-size: 14px;
-    white-space: pre;
-    overflow-x: auto;
-    border: 1px solid #ddd;
-">
-{sql_code}
-</div>
-""", unsafe_allow_html=True)
-
-
 
 
 #datovy model obrazek
