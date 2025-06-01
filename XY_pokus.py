@@ -588,8 +588,8 @@ Zároveň je dobré zvážit i alternativní scénáře:
             Tyto varianty jsme s ohledem na časové možnosti nechaly otevřené - třeba pro další pokračování nebo budoucí generaci datařek.  
   
 Z hlediska analytické práce jsme se cíleně rozhodly projekt **nezahltit stovkami SQL dotazů**, ale spíše ukázat a vyzkoušet si **kombinaci různých přístupů a nástrojů**,
-             které dohromady dávají smysluplný výstup. Pracovaly jsme s **prediktivními modely (například lineární regrese)**, 
-            připravily jsme **scénáře** a výsledky jsme zpracovaly tak, aby byly snadno uchopitelné.
+             které dohromady dávají smysluplný výstup. Pracovaly jsme s **prediktivními modely**, 
+            připravily jsme **scénáře** a výsledky jsme zpracovaly tak, aby byly snadno uchopitelné a prezentovatelné.
             Chtěly jsme využít flexibilitu, kterou tento projekt bez pochyb nabízí - protože v reálné praxi často podobná volnost chybí.  
   
 Věříme, že náš projekt může sloužit jako **užitečný a realistický náhled pro naši generaci**, ke které samy (víceméně už) patříme. 
