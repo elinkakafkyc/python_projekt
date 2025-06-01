@@ -567,7 +567,6 @@ st.divider()  # rozdelovnaci cara
 
 st.header("🌎 Shrnutí a přínos")
 st.markdown("""
-
 Obě simulace ukázaly, že pokud je pár schopen pravidelně spořit, vyhne se dlouhodobé pracovní neschopnosti a udrží si stabilní příjem, 
             je pořízení bytu v některých čtvrtích Prahy v zásadě reálné.  
           
@@ -596,16 +595,13 @@ Věříme, že náš projekt může sloužit jako **užitečný a realistický n
   
 Na závěr bychom chtěly **poděkovat našim mentorům — Jakubu Červinkovi a Elišce Valterové — za jejich trpělivé vedení a cenné rady** během celého projektu. Děkujeme!
 
-
 """)
 
-
-
-st.image("images/materska.png", use_container_width=True)
-st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
-"Teď už potřebují nejen hypotéku, ale i o trochu větší botník.")
 if st.button("🎈 Albert trvá na balónkové rozlučce!"):
     st.balloons()
+st.caption("Modelový páreček v roce 2030: Cecilka, Evžen, fenka Bára a nový člen rodiny – malý Albert. " \
+"Teď už potřebují nejen hypotéku, ale i o trochu větší botník.")
+st.image("images/materska.png", use_container_width=True)
 
 
 
