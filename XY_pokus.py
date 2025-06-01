@@ -183,7 +183,7 @@ st.write(
 st.image("images/uvod.png", use_container_width=True)
 st.write()  
 
-# nastroje a postupy
+# nastroje a postupyy
 st.subheader("🛠️ Nástroje a postupy")
 st.markdown("""V projektu jsme využily širokou škálu nástrojů a technologií, se kterými jsme se během Digitální akademie (i mimo ni) seznámily. 
          Data o realitních inzerátech jsme získaly díky **Apify** a zpracovávaly je v **Keboole** pomocí **SQL (Snowflake)**.
